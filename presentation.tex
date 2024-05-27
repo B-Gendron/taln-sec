@@ -1,6 +1,7 @@
 \documentclass[11pt,aspectratio=169]{beamer}
 
 \usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{xcolor}
@@ -13,31 +14,42 @@
 	sorting=ynt
 ]{biblatex}
 
+% Links to other files
 \addbibresource{references.bib}
 \graphicspath{{figures/}}
 
-\usetheme{Madrid}
+% Beamer template customisation
+\beamertemplatenavigationsymbolsempty
+\setbeamercovered{transparent}
+\usetheme{CambridgeUS}
+\setbeamertemplate{page number in head/foot}[framenumber]
 \usecolortheme{seahorse}
 
-\author[Author 1 (NJIT)]{Author 1, Author 2}
-\title[Short title]{Presentation title}
+% TITLEPAGE
+\author[Gendron \& Guibon]{\large Barbara Gendron-Audebert$^{1,2}$ et Gaël Guibon$^1$ \\ \texttt{prénom.nom@loria.fr}}
+\title[\textsl{SentEmoContext} (SEC) : ERC en contexte]{SEC : contexte émotionnel phrastique intégré pour la reconnaissance émotionnelle efficiente dans la conversation}
+\subtitle{JEP-TALN 2024}
+\date{09 juillet 2024}
+\institute[UniLu. \& LORIA]{\small(1) LORIA, Université de Lorraine, CNRS \enspace (2) Université du Luxembourg}
 
-\setbeamertemplate{navigation symbols}{}
-\titlegraphic{\includegraphics[width=3cm]{njit-logo.png}}
-
-% Uncomment the section below to show a table of contents slide every time a new section starts
-% \AtBeginSection[]
-% {
-%  \begin{frame}<beamer>
-%  \frametitle{Table of contents}
-%  \tableofcontents[currentsection]
-%  \end{frame}
-% }
+% \titlegraphic{\includegraphics[width=0.5\textwidth]{tous-logos.pdf}}
 
 \begin{document}
 
-\begin{frame}
-\titlepage
+\begin{frame}[plain]
+
+	\begin{figure} 
+	\hspace*{0.5cm}
+	\begin{minipage}[c]{.42\linewidth} 
+	\includegraphics[scale=0.04]{unilu.png} 
+	\end{minipage} \hfill 
+	\begin{minipage}[c]{.53\linewidth} 
+	\includegraphics[scale=0.25]{labo-logos.pdf} 
+	\end{minipage} 
+	\end{figure}
+	\vspace*{10pt}
+	\titlepage
+	
 \end{frame}
 
 \section{Background}

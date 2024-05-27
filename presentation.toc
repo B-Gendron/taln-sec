@@ -1,4 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {french}{}
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Background}{2}{0}{1}
 \defcounter {refsection}{0}\relax 
