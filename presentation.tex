@@ -5,10 +5,13 @@
 \usepackage{lmodern}
 \usepackage[french]{babel}
 \usepackage{graphicx}
+\usepackage{qrcode}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{amsmath}
 \usepackage{csquotes}
+\usepackage{caption} 
+\captionsetup[figure]{font={small, sf},labelformat=empty}
 \usepackage{amsfonts}
 \usepackage{listings}
 \usepackage[
@@ -141,10 +144,29 @@
     Aller vers la détection plus subtile, d'émotions plus subtiles et pourquoi pas lien avec ironie ?
 \end{frame}
 
-\begin{frame}[plain]
-    Merci pour votre attention !
-\end{frame}
 
+\begin{frame}[plain]
+    \begin{center}
+        {\color{deepblue}\Huge Merci pour votre attention !}
+        
+        \vspace{0.5cm}
+        
+        \begin{figure}[h]
+            \centering
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \includegraphics[width=0.8\textwidth]{qrcode.jpg}
+                \caption{Site personnel}
+            \end{minipage}
+            \hspace{0.05\textwidth}
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \includegraphics[width=0.8\textwidth]{qrcode.jpg}
+                \caption{Code SentEmoContext}
+            \end{minipage}
+        \end{figure}
+    \end{center}
+\end{frame}
 
 \section{Bibliographie}
 

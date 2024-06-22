@@ -1,0 +1,9 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is '/Users/barbaragendron/Desktop/ThÃ¨se/Presentations/taln-sec/presentation.blg'
+[110] biber-darwin:322> INFO - === Sat Jun 22, 2024, 15:02:20
+[337] Biber.pm:415> INFO - Reading '/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.bcf'
+[476] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[485] Utils.pm:304> WARN - The file '/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.bcf' does not contain any citations!
+[497] bbl.pm:652> INFO - Writing '/Users/barbaragendron/Desktop/ThÃ¨se/Presentations/taln-sec/presentation.bbl' with encoding 'UTF-8'
+[497] bbl.pm:755> INFO - Output to /Users/barbaragendron/Desktop/ThÃ¨se/Presentations/taln-sec/presentation.bbl
+[498] Biber.pm:128> INFO - WARNINGS: 1
