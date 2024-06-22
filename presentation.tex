@@ -1,11 +1,14 @@
 \documentclass[11pt,aspectratio=169]{beamer}
 
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} % pour le français
+\usepackage{lmodern}
 \usepackage[french]{babel}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{amsmath}
+\usepackage{csquotes}
 \usepackage{amsfonts}
 \usepackage{listings}
 \usepackage[
@@ -20,24 +23,37 @@
 
 % Beamer template customisation
 \beamertemplatenavigationsymbolsempty
+\setbeamertemplate{page number in head/foot}[totalframenumber] % numéros de slides
 \setbeamercovered{transparent}
-\usetheme{CambridgeUS}
-\setbeamertemplate{page number in head/foot}[framenumber]
-\usecolortheme{seahorse}
+\usetheme{Madrid}
+\usecolortheme{default}
+
+% Setup colors title page + footline
+\definecolor{deepblue}{RGB}{0, 50, 100} 
+\setbeamercolor{title}{bg=deepblue, fg=white} 
+\setbeamercolor{frametitle}{bg=deepblue, fg=white}
+\setbeamercolor{footline}{bg=deepblue, fg=white}
+\setbeamercolor{author in head/foot}{bg=deepblue, fg=white} 
+\setbeamercolor{title in head/foot}{bg=deepblue, fg=white} 
+\setbeamercolor{date in head/foot}{bg=deepblue, fg=white}
+
+% No more bold font in footline
+\setbeamerfont{author in head/foot}{series=\normalfont}
+\setbeamerfont{title in head/foot}{series=\normalfont}
+\setbeamerfont{date in head/foot}{series=\normalfont} 
+\setbeamerfont{footline}{series=\normalfont} 
 
 % TITLEPAGE
-\author[Gendron \& Guibon]{\large Barbara Gendron-Audebert$^{1,2}$ et Gaël Guibon$^1$ \\ \texttt{prénom.nom@loria.fr}}
-\title[\textsl{SentEmoContext} (SEC) : ERC en contexte]{SEC : contexte émotionnel phrastique intégré pour la reconnaissance émotionnelle efficiente dans la conversation}
-\subtitle{JEP-TALN 2024}
-\date{09 juillet 2024}
+\author[Gendron \& Guibon]{\large Barbara Gendron-Audebert$^{1,2}$ et Gaël Guibon$^1$ \\ \texttt{\{prénom.nom\}@loria.fr}}
+\title[\textsl{SentEmoContext} (SEC) : ERC en contexte]{SEC : contexte émotionnel phrastique intégré pour la reconnaissance émotionnelle efficiente dans la conversation \vspace{5pt}}
+% \subtitle{\vspace{10pt} Session commune 1 - JEP-TALN 2024}
+\date[JEP-TALN 2024 - 9 juillet 2024]{09 juillet 2024}
 \institute[UniLu. \& LORIA]{\small(1) LORIA, Université de Lorraine, CNRS \enspace (2) Université du Luxembourg}
-
-% \titlegraphic{\includegraphics[width=0.5\textwidth]{tous-logos.pdf}}
 
 \begin{document}
 
 \begin{frame}[plain]
-
+\vspace*{5pt}
 	\begin{figure} 
 	\hspace*{0.5cm}
 	\begin{minipage}[c]{.42\linewidth} 
