@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation"] 1719060611 "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.bcf" "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.bbl" "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation" 1719060685
+["biber /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation"] 1719060611 "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.bcf" "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.bbl" "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation" 1719060702
   "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.bcf" 1719060664 101416 94398720bca9d5d75e95cf131af1fdc6 "pdflatex"
   (generated)
   "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.blg"
   "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.bbl"
-["pdflatex"] 1719060662 "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.tex" "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.pdf" "presentation" 1719060685
+["pdflatex"] 1719060662 "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.tex" "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.pdf" "presentation" 1719060702
   "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/labo-logos.pdf" 1716815548 138179 3383f90f5feacceed39e0e418bb25463 ""
   "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/unilu.png" 1716816098 63694 b70bfaf760d00008295e45c7905f931f ""
   "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.aux" 1719060664 8573 65d5d2c780127655efa5b39d7dc29af3 "pdflatex"
@@ -248,12 +248,12 @@
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1589306685 2432465 87c51a6050ac93c0601338ef3f7d6623 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   (generated)
-  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.run.xml"
-  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.toc"
-  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.pdf"
-  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.out"
-  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.snm"
-  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.bcf"
   "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.aux"
-  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.nav"
   "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.log"
+  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.run.xml"
+  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.bcf"
+  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.pdf"
+  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.toc"
+  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.snm"
+  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.nav"
+  "/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.out"
