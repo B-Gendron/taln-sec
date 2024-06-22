@@ -14,11 +14,15 @@
 \captionsetup[figure]{font={small, sf},labelformat=empty}
 \usepackage{amsfonts}
 \usepackage{listings}
+% \usepackage[citestyle=authortitle]{biblatex}
 \usepackage[
-	backend=biber,
-	style=verbose,
-	sorting=ynt
-]{biblatex}
+    backend=biber,
+    style=authortitle,
+    sorting=none,
+    doi=false,
+    url=false,
+    eprint=false
+    ]{biblatex}
 
 % Links to other files
 \addbibresource{references.bib}
@@ -102,7 +106,7 @@
 \section{Méthodologie}
 
 \begin{frame}{Protocole expérimental}
-    
+    Jeu de données \texttt{DailyDialog}~\footfullcite{Li:2017}
 \end{frame}
 
 \begin{frame}{Évaluations quantitative et qualitative}

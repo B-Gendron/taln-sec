@@ -16,5 +16,70 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Li:2017}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=c37436d92244dc1b76fd066ec6a35c18}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yanran},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=203b04e87eb8be93c98f7639b2c2f01b}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a78fd35f8225a8019fad7a86ab8d789}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Xiaoyu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=318a797cfb1e6f8da35b79287d226780}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Wenjie},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06cb1840d9b98ed82839f3080fccf156}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Ziqiang},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81dbfaded972668e8d7ffbc6c058cb73}{%
+           family={Niu},
+           familyi={N\bibinitperiod},
+           given={Shuzi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6260506096f494a80c4ee1d2aa30baaf}
+      \strng{fullhash}{94961aa8f84ec7912f7614a7eaf8569d}
+      \strng{bibnamehash}{6260506096f494a80c4ee1d2aa30baaf}
+      \strng{authorbibnamehash}{6260506096f494a80c4ee1d2aa30baaf}
+      \strng{authornamehash}{6260506096f494a80c4ee1d2aa30baaf}
+      \strng{authorfullhash}{94961aa8f84ec7912f7614a7eaf8569d}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Eighth International Joint Conference on Natural Language Processing}
+      \field{month}{11}
+      \field{title}{{D}aily{D}ialog: A Manually Labelled Multi-turn Dialogue Dataset}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://aclanthology.org/I17-1099
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/I17-1099
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
