@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.12)  22 JUN 2024 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.12)  23 JUN 2024 22:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -498,12 +498,12 @@ Package: amsthm 2017/10/31 v2.20.4
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen275
 \beamer@dimb=\dimen276
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks44
 \inpenc@posthook=\toks45
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -581,51 +581,15 @@ Package babel Info: Making ? an active character on input line 422.
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 Package french.ldf Info: No list customisation for the beamer class,
 (french.ldf)             reported on input line 7.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/qrcode/qrcode.sty
-Package: qrcode 2015/01/08 v1.51 QR code generation
- (/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks47
-\XKV@tempa@toks=\toks48
-)
-\XKV@depth=\count320
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-\c@qr@i=\count321
-\c@qr@j=\count322
-\qr@a=\count323
-\qr@b=\count324
-\qr@c=\count325
-\qr@for@depth=\count326
-\qr@for@maxdepth=\count327
-\qr@for@start=\count328
-\qr@for@end=\count329
-\qr@for@step=\count330
-\qr@newforcount=\count331
-\qr@newforcount=\count332
-\qr@desiredheight=\skip63
-\qr@modulesize=\skip64
-\qr@minipagewidth=\skip65
-\c@maski=\count333
-\c@maskj=\count334
-\c@totalones=\count335
-\c@penaltyi=\count336
-\c@penaltyii=\count337
-\c@penaltyiii=\count338
-\c@penaltyiv=\count339
-\c@qr@hexchars=\count340
-\qr@newforcount=\count341
-\c@qr@divisionsremaining=\count342
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.sty
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
-\csq@reset=\count343
-\csq@gtype=\count344
-\csq@glevel=\count345
-\csq@qlevel=\count346
-\csq@maxlvl=\count347
-\csq@tshold=\count348
-\csq@ltx@everypar=\toks49
+\csq@reset=\count320
+\csq@gtype=\count321
+\csq@glevel=\count322
+\csq@qlevel=\count323
+\csq@maxlvl=\count324
+\csq@tshold=\count325
+\csq@ltx@everypar=\toks47
  (/usr/local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
 )
@@ -647,29 +611,29 @@ Package caption3 Info: TeX engine: e-TeX on input line 61.
 \caption@hangindent=\dimen292
 Package caption Info: beamer document class detected.
 )
-\c@caption@flags=\count349
-\c@continuedfloat=\count350
+\c@caption@flags=\count326
+\c@continuedfloat=\count327
 Package caption Info: beamer document class.
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count351
+\lst@mode=\count328
 \lst@gtempboxa=\box73
-\lst@token=\toks50
-\lst@length=\count352
+\lst@token=\toks48
+\lst@length=\count329
 \lst@currlwidth=\dimen293
-\lst@column=\count353
-\lst@pos=\count354
+\lst@column=\count330
+\lst@pos=\count331
 \lst@lostspace=\dimen294
 \lst@width=\dimen295
-\lst@newlines=\count355
-\lst@lineno=\count356
+\lst@newlines=\count332
+\lst@lineno=\count333
 \lst@maxwidth=\dimen296
  (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count357
-\lst@skipnumbers=\count358
+\c@lstnumber=\count334
+\lst@skipnumbers=\count335
 \lst@framebox=\box74
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -679,67 +643,67 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count359
+\lrq@indent=\count336
  (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count360
-\c@listtotal=\count361
-\c@listcount=\count362
-\c@liststart=\count363
-\c@liststop=\count364
-\c@citecount=\count365
-\c@citetotal=\count366
-\c@multicitecount=\count367
-\c@multicitetotal=\count368
-\c@instcount=\count369
-\c@maxnames=\count370
-\c@minnames=\count371
-\c@maxitems=\count372
-\c@minitems=\count373
-\c@citecounter=\count374
-\c@maxcitecounter=\count375
-\c@savedcitecounter=\count376
-\c@uniquelist=\count377
-\c@uniquename=\count378
-\c@refsection=\count379
-\c@refsegment=\count380
-\c@maxextratitle=\count381
-\c@maxextratitleyear=\count382
-\c@maxextraname=\count383
-\c@maxextradate=\count384
-\c@maxextraalpha=\count385
-\c@abbrvpenalty=\count386
-\c@highnamepenalty=\count387
-\c@lownamepenalty=\count388
-\c@maxparens=\count389
-\c@parenlevel=\count390
-\blx@tempcnta=\count391
-\blx@tempcntb=\count392
-\blx@tempcntc=\count393
-\blx@maxsection=\count394
-\blx@maxsegment@0=\count395
-\blx@notetype=\count396
-\blx@parenlevel@text=\count397
-\blx@parenlevel@foot=\count398
-\blx@sectionciteorder@0=\count399
-\blx@entrysetcounter=\count400
-\labelnumberwidth=\skip66
-\labelalphawidth=\skip67
-\biblabelsep=\skip68
-\bibitemsep=\skip69
-\bibnamesep=\skip70
-\bibinitsep=\skip71
-\bibparsep=\skip72
-\bibhang=\skip73
+\c@tabx@nest=\count337
+\c@listtotal=\count338
+\c@listcount=\count339
+\c@liststart=\count340
+\c@liststop=\count341
+\c@citecount=\count342
+\c@citetotal=\count343
+\c@multicitecount=\count344
+\c@multicitetotal=\count345
+\c@instcount=\count346
+\c@maxnames=\count347
+\c@minnames=\count348
+\c@maxitems=\count349
+\c@minitems=\count350
+\c@citecounter=\count351
+\c@maxcitecounter=\count352
+\c@savedcitecounter=\count353
+\c@uniquelist=\count354
+\c@uniquename=\count355
+\c@refsection=\count356
+\c@refsegment=\count357
+\c@maxextratitle=\count358
+\c@maxextratitleyear=\count359
+\c@maxextraname=\count360
+\c@maxextradate=\count361
+\c@maxextraalpha=\count362
+\c@abbrvpenalty=\count363
+\c@highnamepenalty=\count364
+\c@lownamepenalty=\count365
+\c@maxparens=\count366
+\c@parenlevel=\count367
+\blx@tempcnta=\count368
+\blx@tempcntb=\count369
+\blx@tempcntc=\count370
+\blx@maxsection=\count371
+\blx@maxsegment@0=\count372
+\blx@notetype=\count373
+\blx@parenlevel@text=\count374
+\blx@parenlevel@foot=\count375
+\blx@sectionciteorder@0=\count376
+\blx@entrysetcounter=\count377
+\labelnumberwidth=\skip63
+\labelalphawidth=\skip64
+\biblabelsep=\skip65
+\bibitemsep=\skip66
+\bibnamesep=\skip67
+\bibinitsep=\skip68
+\bibparsep=\skip69
+\bibhang=\skip70
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language86
-\c@mincomprange=\count401
-\c@maxcomprange=\count402
-\c@mincompwidth=\count403
+\c@mincomprange=\count378
+\c@maxcomprange=\count379
+\c@mincompwidth=\count380
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -749,88 +713,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authortitle.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count404
-\c@savedafterword=\count405
-\c@annotator=\count406
-\c@savedannotator=\count407
-\c@author=\count408
-\c@savedauthor=\count409
-\c@bookauthor=\count410
-\c@savedbookauthor=\count411
-\c@commentator=\count412
-\c@savedcommentator=\count413
-\c@editor=\count414
-\c@savededitor=\count415
-\c@editora=\count416
-\c@savededitora=\count417
-\c@editorb=\count418
-\c@savededitorb=\count419
-\c@editorc=\count420
-\c@savededitorc=\count421
-\c@foreword=\count422
-\c@savedforeword=\count423
-\c@holder=\count424
-\c@savedholder=\count425
-\c@introduction=\count426
-\c@savedintroduction=\count427
-\c@namea=\count428
-\c@savednamea=\count429
-\c@nameb=\count430
-\c@savednameb=\count431
-\c@namec=\count432
-\c@savednamec=\count433
-\c@translator=\count434
-\c@savedtranslator=\count435
-\c@shortauthor=\count436
-\c@savedshortauthor=\count437
-\c@shorteditor=\count438
-\c@savedshorteditor=\count439
-\c@labelname=\count440
-\c@savedlabelname=\count441
-\c@institution=\count442
-\c@savedinstitution=\count443
-\c@lista=\count444
-\c@savedlista=\count445
-\c@listb=\count446
-\c@savedlistb=\count447
-\c@listc=\count448
-\c@savedlistc=\count449
-\c@listd=\count450
-\c@savedlistd=\count451
-\c@liste=\count452
-\c@savedliste=\count453
-\c@listf=\count454
-\c@savedlistf=\count455
-\c@location=\count456
-\c@savedlocation=\count457
-\c@organization=\count458
-\c@savedorganization=\count459
-\c@origlocation=\count460
-\c@savedoriglocation=\count461
-\c@origpublisher=\count462
-\c@savedorigpublisher=\count463
-\c@publisher=\count464
-\c@savedpublisher=\count465
-\c@language=\count466
-\c@savedlanguage=\count467
-\c@origlanguage=\count468
-\c@savedoriglanguage=\count469
-\c@pageref=\count470
-\c@savedpageref=\count471
-\shorthandwidth=\skip74
-\shortjournalwidth=\skip75
-\shortserieswidth=\skip76
-\shorttitlewidth=\skip77
-\shortauthorwidth=\skip78
-\shorteditorwidth=\skip79
-\locallabelnumberwidth=\skip80
-\locallabelalphawidth=\skip81
-\localshorthandwidth=\skip82
-\localshortjournalwidth=\skip83
-\localshortserieswidth=\skip84
-\localshorttitlewidth=\skip85
-\localshortauthorwidth=\skip86
-\localshorteditorwidth=\skip87
+\c@afterword=\count381
+\c@savedafterword=\count382
+\c@annotator=\count383
+\c@savedannotator=\count384
+\c@author=\count385
+\c@savedauthor=\count386
+\c@bookauthor=\count387
+\c@savedbookauthor=\count388
+\c@commentator=\count389
+\c@savedcommentator=\count390
+\c@editor=\count391
+\c@savededitor=\count392
+\c@editora=\count393
+\c@savededitora=\count394
+\c@editorb=\count395
+\c@savededitorb=\count396
+\c@editorc=\count397
+\c@savededitorc=\count398
+\c@foreword=\count399
+\c@savedforeword=\count400
+\c@holder=\count401
+\c@savedholder=\count402
+\c@introduction=\count403
+\c@savedintroduction=\count404
+\c@namea=\count405
+\c@savednamea=\count406
+\c@nameb=\count407
+\c@savednameb=\count408
+\c@namec=\count409
+\c@savednamec=\count410
+\c@translator=\count411
+\c@savedtranslator=\count412
+\c@shortauthor=\count413
+\c@savedshortauthor=\count414
+\c@shorteditor=\count415
+\c@savedshorteditor=\count416
+\c@labelname=\count417
+\c@savedlabelname=\count418
+\c@institution=\count419
+\c@savedinstitution=\count420
+\c@lista=\count421
+\c@savedlista=\count422
+\c@listb=\count423
+\c@savedlistb=\count424
+\c@listc=\count425
+\c@savedlistc=\count426
+\c@listd=\count427
+\c@savedlistd=\count428
+\c@liste=\count429
+\c@savedliste=\count430
+\c@listf=\count431
+\c@savedlistf=\count432
+\c@location=\count433
+\c@savedlocation=\count434
+\c@organization=\count435
+\c@savedorganization=\count436
+\c@origlocation=\count437
+\c@savedoriglocation=\count438
+\c@origpublisher=\count439
+\c@savedorigpublisher=\count440
+\c@publisher=\count441
+\c@savedpublisher=\count442
+\c@language=\count443
+\c@savedlanguage=\count444
+\c@origlanguage=\count445
+\c@savedoriglanguage=\count446
+\c@pageref=\count447
+\c@savedpageref=\count448
+\shorthandwidth=\skip71
+\shortjournalwidth=\skip72
+\shortserieswidth=\skip73
+\shorttitlewidth=\skip74
+\shortauthorwidth=\skip75
+\shorteditorwidth=\skip76
+\locallabelnumberwidth=\skip77
+\locallabelalphawidth=\skip78
+\localshorthandwidth=\skip79
+\localshortjournalwidth=\skip80
+\localshortserieswidth=\skip81
+\localshorttitlewidth=\skip82
+\localshortauthorwidth=\skip83
+\localshorteditorwidth=\skip84
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -840,19 +804,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count472
-\c@textcitetotal=\count473
-\c@textcitemaxnames=\count474
-\c@biburlbigbreakpenalty=\count475
-\c@biburlbreakpenalty=\count476
-\c@biburlnumpenalty=\count477
-\c@biburlucpenalty=\count478
-\c@biburllcpenalty=\count479
+\c@textcitecount=\count449
+\c@textcitetotal=\count450
+\c@textcitemaxnames=\count451
+\c@biburlbigbreakpenalty=\count452
+\c@biburlbreakpenalty=\count453
+\c@biburlnumpenalty=\count454
+\c@biburlucpenalty=\count455
+\c@biburllcpenalty=\count456
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count480
+\c@smartand=\count457
 )
 Package biblatex Info: Trying to load bibliography style 'authortitle'...
 Package biblatex Info: ... file 'authortitle.bbx' found.
@@ -862,8 +826,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count481
-\c@bbx:relatedtotal=\count482
+\c@bbx:relatedcount=\count458
+\c@bbx:relatedtotal=\count459
 ))
 Package biblatex Info: Trying to load citation style 'authortitle'...
 Package biblatex Info: ... file 'authortitle.cbx' found.
@@ -884,35 +848,35 @@ File: biblatex.cfg
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 54.
+(hyperref)                removing `math shift' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 54.
+(hyperref)                removing `superscript' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 54.
+(hyperref)                removing `math shift' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 54.
+(hyperref)                removing `math shift' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 54.
+(hyperref)                removing `superscript' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 54.
+(hyperref)                removing `math shift' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 54.
+(hyperref)                removing `\\' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 60.
+(hyperref)                removing `\new@ifnextchar' on input line 59.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -920,28 +884,28 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count483
+\l__kernel_color_stack_int=\count460
 \l__pdf_internal_box=\box75
 ) (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 59.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -981,17 +945,17 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count484
+\scratchcounter=\count461
 \scratchdimen=\dimen297
 \scratchbox=\box76
-\nofMPsegments=\count485
-\nofMParguments=\count486
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count487
+\nofMPsegments=\count462
+\nofMParguments=\count463
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count464
 \MPscratchDim=\dimen298
-\MPnumerator=\count488
-\makeMPintoPDFobject=\count489
-\everyMPtoPDFconversion=\toks52
+\MPnumerator=\count465
+\makeMPintoPDFobject=\count466
+\everyMPtoPDFconversion=\toks50
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -999,7 +963,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box77
-Package hyperref Info: Link coloring OFF on input line 60.
+Package hyperref Info: Link coloring OFF on input line 59.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1007,61 +971,61 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count490
+\c@section@level=\count467
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
  (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.out) (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.out)
 \@outlinefile=\write6
 \openout6 = `presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 60.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 60.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 60.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 60.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 59.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 60.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 60.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 59.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 60.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 60.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 60.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 59.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 60.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 60.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 60.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 59.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 60.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 60.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 60.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 59.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 60.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 60.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 60.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 60.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 60.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 60.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 60.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 60.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 60.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 59.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1075,13 +1039,13 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \degres on input line 60.
-LaTeX Info: Redefining \dots on input line 60.
-LaTeX Info: Redefining \up on input line 60.
+LaTeX Info: Redefining \degres on input line 59.
+LaTeX Info: Redefining \dots on input line 59.
+LaTeX Info: Redefining \up on input line 59.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count491
+\c@lstlisting=\count468
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/french.lbx
@@ -1095,60 +1059,60 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'presentation.bbl' found.
  (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.bbl)
-Package biblatex Info: Reference section=0 on input line 60.
-Package biblatex Info: Reference segment=0 on input line 60.
+Package biblatex Info: Reference section=0 on input line 59.
+Package biblatex Info: Reference segment=0 on input line 59.
  (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.nav)
-<figures/unilu.png, id=42, 1204.5pt x 1018.80624pt>
+<figures/unilu.png, id=38, 1204.5pt x 1018.80624pt>
 File: figures/unilu.png Graphic file (type png)
 <use figures/unilu.png>
-Package pdftex.def Info: figures/unilu.png  used on input line 76.
+Package pdftex.def Info: figures/unilu.png  used on input line 75.
 (pdftex.def)             Requested size: 48.17178pt x 40.7453pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 76.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 75.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 76.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 75.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 76.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 75.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 76.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 75.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 76.
+(Font)              <10.95> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 76.
+(Font)              <8> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 76.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
+(Font)              <6> on input line 75.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 75.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 75.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
-<figures/labo-logos.pdf, id=44, 905.83879pt x 161.77489pt>
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 75.
+<figures/labo-logos.pdf, id=40, 905.83879pt x 161.77489pt>
 File: figures/labo-logos.pdf Graphic file (type pdf)
 <use figures/labo-logos.pdf>
-Package pdftex.def Info: figures/labo-logos.pdf  used on input line 76.
+Package pdftex.def Info: figures/labo-logos.pdf  used on input line 75.
 (pdftex.def)             Requested size: 226.45914pt x 40.44362pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 76.
+(Font)              <12> on input line 75.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 76.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 75.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 75.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
@@ -1166,16 +1130,9 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ] [7
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 110.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <9> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 110.
+LaTeX Warning: Citation 'Li:2017' on page 8 undefined on input line 109.
 
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 110.
 [8
 
 ] [9
@@ -1195,25 +1152,24 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
 ] [16
 
 ]
-<figures/qrcode.jpg, id=168, 2462.19875pt x 2462.19875pt>
+<figures/qrcode.jpg, id=164, 2462.19875pt x 2462.19875pt>
 File: figures/qrcode.jpg Graphic file (type jpg)
 <use figures/qrcode.jpg>
-Package pdftex.def Info: figures/qrcode.jpg  used on input line 173.
+Package pdftex.def Info: figures/qrcode.jpg  used on input line 172.
 (pdftex.def)             Requested size: 156.05377pt x 156.02853pt.
 File: figures/qrcode.jpg Graphic file (type jpg)
 <use figures/qrcode.jpg>
-Package pdftex.def Info: figures/qrcode.jpg  used on input line 173.
+Package pdftex.def Info: figures/qrcode.jpg  used on input line 172.
 (pdftex.def)             Requested size: 156.05377pt x 156.02853pt.
  [17
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/qrcode.jpg>]
 
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 180.
+LaTeX Warning: Empty bibliography on input line 179.
 
 [18
 
- </usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
+]
 \tf@nav=\write7
 \openout7 = `presentation.nav'.
 
@@ -1223,30 +1179,39 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
 \tf@snm=\write9
 \openout9 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: B5262D8B71D6CD24F7F226BFE650D0F5;339.
+(rerunfilecheck)             Checksum: 7A14B09A002C51F32832AE20120F7149;288.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                presentation
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 \openout1 = `presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31019 strings out of 480608
- 576297 string characters out of 5903630
- 1212448 words of memory out of 5000000
- 46268 multiletter control sequences out of 15000+600000
- 597179 words of font info for 67 fonts, out of 8000000 for 9000
+ 29274 strings out of 480608
+ 551048 string characters out of 5903630
+ 1190557 words of memory out of 5000000
+ 44541 multiletter control sequences out of 15000+600000
+ 594357 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,106p,877b,1986s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.pdf (18 pages, 743479 bytes).
+ 58i,15n,67p,877b,1719s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.pdf (18 pages, 716350 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
