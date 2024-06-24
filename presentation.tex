@@ -10,7 +10,8 @@
 \usepackage{amsmath}
 \usepackage{csquotes}
 \usepackage{caption} 
-\captionsetup[figure]{font={small, sf},labelformat=empty}
+\usepackage{subcaption} % for subfigures
+% \captionsetup[figure]{font={small, sf},labelformat=empty}
 \usepackage{amsfonts}
 \usepackage{listings}
 \usepackage[natbib=true,style=authortitle,backend=bibtex,useprefix=true]{biblatex}
@@ -113,17 +114,82 @@
 \end{frame}
 
 \begin{frame}{Réseaux siamois}
-    
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            Architecture présentée dans le papier original~\footfullcite{Koch:2015}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \only<1>{
+                \begin{figure}
+                    \centering
+                    \includegraphics[width=\textwidth]{koch1.png}
+                \end{figure}
+            }
+            \only<2>{
+                \begin{figure}
+                    \centering
+                    \includegraphics[width=\textwidth]{koch2.png}
+                \end{figure}
+            }
+            \only<3>{
+                \begin{figure}
+                    \centering
+                    \includegraphics[width=\textwidth]{koch3.png}
+                \end{figure}
+            }
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \begin{frame}{\textsl{Triplet loss} : fonction de coût par triplets}
-    
+
+\begin{equation*}
+    \mathcal{L}(a, p, n) = \text{max}\left\{ d(a, p) - d(a, n) + \texttt{marge}, 0\right\}
+\end{equation*}
+
+\only<1>{
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.6\textwidth]{triplet_loss_no_margin.png}
+    \end{figure}
+}
+\only<2>{
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.6\textwidth]{triplet_loss_margin.png}
+    \end{figure}
+}
 \end{frame}
 
 \section{Méthodologie}
 
 \begin{frame}{Protocole expérimental}
     Jeu de données \texttt{DailyDialog}~\footfullcite{Li:2017}
+    \begin{itemize}
+        \item 13 118 dialogues dyadiques en anglais sur des sujets de la vie quotidienne
+        \item<2-> Annotation au niveau du tour de parole : \texttt{happiness}, \texttt{anger}, \texttt{disgust}, \texttt{fear}, \texttt{surprise}, \texttt{sadness} et \texttt{no emotion}
+    \end{itemize}
+
+\visible<3->{
+    \begin{figure}[h]
+        \centering
+        % \caption{\centering Description des données de \texttt{DailyDialog}}
+        \begin{subfigure}[t]{0.45\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{topic-distib.png}
+            \caption{\centering Répartition des sujets des dialogues}
+            \label{fig:topics}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[t]{0.45\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{train-pretty.png}
+            \caption{\centering Distribution des émotions dans les données d'entraînement}
+            \label{fig:emotions}
+        \end{subfigure}
+        \label{fig:dd-desc}
+    \end{figure}
+}
 \end{frame}
 
 \begin{frame}{Évaluations quantitative et qualitative}
