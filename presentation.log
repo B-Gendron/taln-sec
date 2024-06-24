@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.12)  24 JUN 2024 08:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.12)  24 JUN 2024 09:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -800,6 +800,16 @@ Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 )
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
@@ -817,6 +827,12 @@ File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
 \c@smartand=\count457
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
 )
 Package biblatex Info: Trying to load bibliography style 'authortitle'...
 Package biblatex Info: ... file 'authortitle.bbx' found.
@@ -848,35 +864,35 @@ File: biblatex.cfg
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 54.
+(hyperref)                removing `math shift' on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 54.
+(hyperref)                removing `superscript' on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 54.
+(hyperref)                removing `math shift' on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 54.
+(hyperref)                removing `math shift' on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 54.
+(hyperref)                removing `superscript' on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 54.
+(hyperref)                removing `math shift' on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 54.
+(hyperref)                removing `\\' on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 60.
+(hyperref)                removing `\new@ifnextchar' on input line 53.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -889,23 +905,23 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 ) (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 53.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -963,7 +979,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box77
-Package hyperref Info: Link coloring OFF on input line 60.
+Package hyperref Info: Link coloring OFF on input line 53.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -973,59 +989,59 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count467
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
  (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.out) (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.out)
 \@outlinefile=\write6
 \openout6 = `presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 60.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 60.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 60.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 60.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 53.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 60.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 60.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 53.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 60.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 60.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 60.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 53.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 60.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 60.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 60.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 53.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 60.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 60.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 60.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 53.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 60.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 60.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 60.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 60.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 60.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 60.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 60.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 60.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 60.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 53.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1039,9 +1055,9 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \degres on input line 60.
-LaTeX Info: Redefining \dots on input line 60.
-LaTeX Info: Redefining \up on input line 60.
+LaTeX Info: Redefining \degres on input line 53.
+LaTeX Info: Redefining \dots on input line 53.
+LaTeX Info: Redefining \up on input line 53.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1054,65 +1070,74 @@ File: french.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `presentation.bcf'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout5 = `presentation-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'presentation.bbl' found.
- (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.bbl)
-Package biblatex Info: Reference section=0 on input line 60.
-Package biblatex Info: Reference segment=0 on input line 60.
+ (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Pereira:2022':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 53.
+Package biblatex Info: Reference segment=0 on input line 53.
  (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.nav)
-<figures/unilu.png, id=38, 1204.5pt x 1018.80624pt>
+<figures/unilu.png, id=42, 1204.5pt x 1018.80624pt>
 File: figures/unilu.png Graphic file (type png)
 <use figures/unilu.png>
-Package pdftex.def Info: figures/unilu.png  used on input line 76.
+Package pdftex.def Info: figures/unilu.png  used on input line 69.
 (pdftex.def)             Requested size: 48.17178pt x 40.7453pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 76.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 69.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 76.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 69.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 76.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 69.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 76.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 69.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 76.
+(Font)              <10.95> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 76.
+(Font)              <8> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 76.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
+(Font)              <6> on input line 69.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 69.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 69.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
-<figures/labo-logos.pdf, id=40, 905.83879pt x 161.77489pt>
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 69.
+<figures/labo-logos.pdf, id=44, 905.83879pt x 161.77489pt>
 File: figures/labo-logos.pdf Graphic file (type pdf)
 <use figures/labo-logos.pdf>
-Package pdftex.def Info: figures/labo-logos.pdf  used on input line 76.
+Package pdftex.def Info: figures/labo-logos.pdf  used on input line 69.
 (pdftex.def)             Requested size: 226.45914pt x 40.44362pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 76.
+(Font)              <12> on input line 69.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 76.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 69.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 69.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
@@ -1123,17 +1148,24 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ] [4
 
-] [5
+]
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 109.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <9> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 109.
+
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 109.
+[5
 
 ] [6
 
 ] [7
 
-]
-
-LaTeX Warning: Citation 'Li:2017' on page 8 undefined on input line 126.
-
-[8
+] [8
 
 ] [9
 
@@ -1151,25 +1183,28 @@ LaTeX Warning: Citation 'Li:2017' on page 8 undefined on input line 126.
 
 ] [16
 
+] [17
+
 ]
-<figures/qrcode.jpg, id=166, 2462.19875pt x 2462.19875pt>
+<figures/qrcode.jpg, id=176, 2462.19875pt x 2462.19875pt>
 File: figures/qrcode.jpg Graphic file (type jpg)
 <use figures/qrcode.jpg>
-Package pdftex.def Info: figures/qrcode.jpg  used on input line 189.
+Package pdftex.def Info: figures/qrcode.jpg  used on input line 190.
 (pdftex.def)             Requested size: 156.05377pt x 156.02853pt.
 File: figures/qrcode.jpg Graphic file (type jpg)
 <use figures/qrcode.jpg>
-Package pdftex.def Info: figures/qrcode.jpg  used on input line 189.
+Package pdftex.def Info: figures/qrcode.jpg  used on input line 190.
 (pdftex.def)             Requested size: 156.05377pt x 156.02853pt.
- [17
+ [18
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/qrcode.jpg>]
 
-LaTeX Warning: Empty bibliography on input line 196.
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 197.
 
-[18
+[19
 
-]
+ </usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 \tf@nav=\write7
 \openout7 = `presentation.nav'.
 
@@ -1179,39 +1214,30 @@ LaTeX Warning: Empty bibliography on input line 196.
 \tf@snm=\write9
 \openout9 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
  (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 7A14B09A002C51F32832AE20120F7149;288.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                presentation
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: B5262D8B71D6CD24F7F226BFE650D0F5;339.
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 \openout1 = `presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29319 strings out of 480608
- 552189 string characters out of 5903630
- 1190600 words of memory out of 5000000
- 44586 multiletter control sequences out of 15000+600000
- 594357 words of font info for 66 fonts, out of 8000000 for 9000
+ 29507 strings out of 480608
+ 556321 string characters out of 5903630
+ 1010869 words of memory out of 5000000
+ 44758 multiletter control sequences out of 15000+600000
+ 597179 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,67p,877b,1719s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.pdf (18 pages, 718473 bytes).
+ 58i,15n,67p,877b,1867s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.pdf (19 pages, 756413 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 

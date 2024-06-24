@@ -5,7 +5,7 @@
 \usepackage{lmodern}
 \usepackage[french]{babel}
 \usepackage{graphicx}
-% \usepackage{hyperref}
+\usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{amsmath}
 \usepackage{csquotes}
@@ -13,14 +13,7 @@
 \captionsetup[figure]{font={small, sf},labelformat=empty}
 \usepackage{amsfonts}
 \usepackage{listings}
-\usepackage[
-    backend=biber,
-    style=authortitle,
-    sorting=none,
-    doi=false,
-    url=false,
-    eprint=false
-    ]{biblatex}
+\usepackage[natbib=true,style=authortitle,backend=bibtex,useprefix=true]{biblatex}
 
 % Links to other files
 \addbibresource{references.bib}
@@ -105,6 +98,14 @@
 
 \begin{frame}{Travaux connexes}
     
+\end{frame}
+
+\begin{frame}{Apport du \textsl{deep learning}}
+    \begin{itemize}
+        \item La profondeur du réseau neuronal permet de ... la subtilité du discours
+        \item De nombreuses structures séquentielles à disposition
+        \item Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC~\footfullcite{Poria:2019}$^{,}$\footfullcite{Pereira:2022}
+    \end{itemize}
 \end{frame}
 
 \begin{frame}{Apport du \textsl{metric learning}}
