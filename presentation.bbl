@@ -107,6 +107,27 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Matthews:1975}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MBW}{%
+         family={Matthews},
+         familyi={M\bibinitperiod},
+         given={Brian\bibnamedelima W.},
+         giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MBW1}
+    \strng{fullhash}{MBW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Comparison of the predicted and observed secondary structure
+  of T4 phage lysozyme.}
+    \field{journaltitle}{Biochimica et biophysica acta}
+    \field{year}{1975}
+  \endentry
+
   \entry{Pereira:2022}{misc}{}
     \name{author}{3}{}{%
       {{hash=PP}{%

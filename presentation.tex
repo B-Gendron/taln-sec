@@ -72,87 +72,134 @@
 \section{Introduction}
 
 \begin{frame}{Contexte}
-    Motivations
+    \emph{
+    \begin{itemize}
+        \item Comme quoi on a de plus en plus de discours à caractère émotionnel dans les contenus générés par les utilisateurs.
+        \item Il est nécessaire de bien les comprendre et c'est souvent subtile (co-références, ironie, amplification, biais, ...)
+        \item Il existe déjà des modèles pour ça mais ça reste une tâche difficile à accomplir, qu'on pourrait essayer d'améliorer avec les progrès du deep learning
+    \end{itemize}
+    \vspace*{10pt}
+    Ajouter des choses à partir de l'intro du papier. Quelle illustration sympa on pourrait mettre ici ? Il faut quelque chose d'accrocheur à ce stade...}
+    
 \end{frame}
 
 \begin{frame}{Objectifs}
-    
-    Objectif global :
-    \begin{itemize}
-        \item Détection et identification des émotions dans le contenu généré par les utilisateurs
-    \end{itemize}
-    \vspace{10pt}
+
     Cadre de l'étude : % Pour réaliser ces objectifs "grandes directions" on a posé un cadre d'étude qui permet de vérifier nos hypothèses
     \begin{itemize}
+        \item Détection et identification des émotions dans le contenu généré par les utilisateurs
         \item Dialogues sous forme de conversations dyadiques % le type de données que l'on étudie
         \item Reconnaissance d'Émotions en Conversation (ERC) % la tâche que l'on va chercher à évaluer 
     \end{itemize}
     \vspace{10pt}
-    Questions de recherche :
+    \visible<2->{
+    Questions de recherche :    
     \begin{itemize}
         \item Comment utiliser l'information provenant du contexte conversationnel pour guider la détection d'émotions en conversation ?
         \item Est-ce que la prise en compte du contexte conversationnel permet d'améliorer la détection d'émotions en conversation dans le cas dyadique ?
     \end{itemize}
+    }
 \end{frame}
 
 \section{État-de-l'art}
 
-\begin{frame}{Travaux connexes}
-    
-\end{frame}
-
 \begin{frame}{Apport du \textsl{deep learning}}
     \begin{itemize}
-        \item La profondeur du réseau neuronal permet de ... la subtilité du discours
+        \item La profondeur du réseau neuronal permet de traiter certains aspects plus subtils du discours (parallèle avec la vision si le temps ?)
         \item De nombreuses structures séquentielles à disposition
         \item Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC~\footfullcite{Poria:2019}$^{,}$\footfullcite{Pereira:2022}
     \end{itemize}
+    \vspace*{10pt}
+    \emph{Ici un lien avec notre approche montrant la richesse de notre exploration des réseaux neuronaux. En effet, nous ne nous sommes pas limités aux derniers Transformers mais avons aussi testé des MLP, LSTM, Encoder-only et Decoder-only. Je pense que ça mérite d'être souligné.}
+\end{frame}
+
+\begin{frame}{Travaux connexes}
+    \emph{Présenter ici rapidement quelques approches utilisant du deep learning (en gros les usines à gaz de notre tableau SOTA, en précisant ce qu'ils rajoutent), avec peut-être une transition vers le metric learning grâce à un exemple qui présente du meta-learning / apprentissage contrastif.}
 \end{frame}
 
 \begin{frame}{Apport du \textsl{metric learning}}
+\emph{Motiver l'utilisation de cette forme de méta-apprentissage, qu'on peut définir par le formalisme "apprendre à apprendre" mais aussi par cette idée d'extraction de meta-representation. C'est ça qu'on va utiliser par la suite, et ça permet plein de choses pertinentes dans le cadre des émotions, notamment:
+\begin{itemize}
+    \item Un cadre de classification plus souple : introduction de nouveaux labels inconnus sans avoir besoin de changer le modèle ni l'entraînement
+    \item L'extraction de relations entre les labels de manière assez naturelle puisque c'est comme ça que le modèle a été entraîné
+    \item Une adaptation intrinsèque à l'apprentissage avec peu d'essais (\texttt{few-shot learning}), ce qui permet d'apprendre des labels émotionnels peu représentés/dotés
+\end{itemize}
+}
+\end{frame}
 
+\begin{frame}{Travaux connexes}
+    \emph{Donner des exemples en metric learning, notamment protosec !}
 \end{frame}
 
 \begin{frame}{Réseaux siamois}
-Architecture présentée dans le papier original~\footfullcite{Koch:2015}
     \only<1>{
         \begin{figure}
             \centering
             \includegraphics[width=0.45\textwidth]{koch1.png}
+            \caption{\centering Architecture des réseaux siamois~\footfullcite{Koch:2015}}
         \end{figure}
     }
     \only<2>{
         \begin{figure}
             \centering
             \includegraphics[width=0.45\textwidth]{koch2.png}
+            \caption{\centering Architecture des réseaux siamois~\footfullcite{Koch:2015}}
         \end{figure}
     }
     \only<3>{
         \begin{figure}
             \centering
             \includegraphics[width=0.45\textwidth]{koch3.png}
+            \caption{\centering Architecture des réseaux siamois~\footfullcite{Koch:2015}}
         \end{figure}
     }
 \end{frame}
 
 \begin{frame}{\textsl{Triplet loss} : fonction de coût par triplets}
 
-\begin{equation*}
-    \mathcal{L}(a, p, n) = \text{max}\left\{ d(a, p) - d(a, n) + \texttt{marge}, 0\right\}
-\end{equation*}
+\begin{columns}
+    \begin{column}{0.3\linewidth}
+        Un triplet de propos:
+            \begin{itemize}
+                \item Ancre ($A$)
+                \item Positif ($P$)
+                \item Négatif ($N$)
+            \end{itemize}
+        \vspace{0.5cm}
 
-\only<1>{
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.6\textwidth]{triplet_loss_no_margin.png}
-    \end{figure}
+        $A$ et $P$ sont de la même classe, $N$ est d'une autre.\\
+
+        \vspace{0.5cm}
+        Objectif de la \textsl{triplet loss}: 
+        \begin{itemize}
+        \item Minimiser $d(A,P)$ 
+        \item Maximiser $d(A,N)$
+        \end{itemize}
+    \end{column}
+    \begin{column}{0.65\linewidth}
+\visible<2->{
+        \begin{equation*}
+            \mathcal{L}(a, p, n) = \text{max}\left\{ \textcolor<3>{blue}{d(a, p) - d(a, n)} + \textcolor<4>{blue}{\texttt{marge}}, 0\right\}
+        \end{equation*}
+        
+        \only<2-3>{
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{triplet_loss_no_margin.png}
+                \caption{\centering Illustration du principe de la \textsl{triplet loss}}
+            \end{figure}
+        }
+        \only<4>{
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{triplet_loss_margin.png}
+                \caption{\centering Illustration du principe de la \textsl{triplet loss}}
+            \end{figure}
+        }
 }
-\only<2>{
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.6\textwidth]{triplet_loss_margin.png}
-    \end{figure}
-}
+    \end{column}
+\end{columns}
+
 \end{frame}
 
 \section{Méthodologie}
@@ -186,48 +233,73 @@ Architecture présentée dans le papier original~\footfullcite{Koch:2015}
 }
 \end{frame}
 
+\begin{frame}{Procédure d'entraînement}
+    \framesubtitle{Prédictions d'émotions \textbf{avec contexte} (propos contextuels)}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.9\textwidth]{contextual_utterances_training_fr.png}
+        \caption{\centering Prédiction d'émotions sur des représentations de propos contextuelles.}
+    \end{figure}
+\end{frame}
+
 \begin{frame}{Évaluations quantitative et qualitative}
     \framesubtitle{Métriques d'évaluation}
-    
-\end{frame}
-
-\begin{frame}{Évaluations quantitative et qualitative}
-    \framesubtitle{Le MCC : \textsl{Matthews Correlation Coefficient}}
-    
-\end{frame}
-
-\begin{frame}{Évaluations quantitative et qualitative}
-    \framesubtitle{Subjectivité de l'annotation}
-    
+\emph{
+\begin{itemize}
+    \item MicroF1 : choix historiquement privilégié par la littérature
+    \item MacroF1 parait plus pertinent car favorise des modèles plus polyvalents en reconnaissance des émotions, donc moins biaisé et plus aptes à distinguer des émotions nouvelles
+    \item MCC (\textsl{Matthews Correlation Coefficient}) : métrique plus contraignante mais essentielle pour assurer la pertinence de l'entraînement.
+\end{itemize}
+}
+Le MCC est défini comme suit~\footfullcite{Matthews:1975} :
+\begin{equation}
+    \text{MCC} = \frac{\mathit{TP}/ N-S \times P}{\sqrt{P S(1-S)(1-P)}}
+\end{equation}
+Où $TP$ est le nombre de vrais positifs, $N$ la taille des données, $P$ la précision et $S$ le rappel (pour \textsl{sensitivity}).
 \end{frame}
 
 \section{Résultats}
 
 \begin{frame}{Résultats quantitatifs}
-    
+    % Préciser que c'est sur le jeu de test d'origine, et que l'astérisque signifie qu'on exclut l'étiquette neutre
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.23]{resultats_sans_llms.png}
+        \caption{\centering Résultats en ERC sur \texttt{DailyDialog}}
+    \end{figure}
 \end{frame}
 
 \begin{frame}{Évaluation qualitative}
-    
+    \emph{Discuter la question de la subjectivité de l'annotation}
+\end{frame}
+
+\begin{frame}{Comparaison avec les LLMs}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.6\textwidth]{resultats_llms.png}
+        \caption{\centering Résultats avec les LLMs et comparaison avec \texttt{SentEmoContext}}
+    \end{figure}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{taille_llms.png}
+        \caption{\centering Aperçu de la taille des modèles et comparaison avec \texttt{SentEmoContext}}
+    \end{figure}
 \end{frame}
 
 \section{Conclusion}
 
-\begin{frame}{Reconnaissance d'émotions en contexte}
-    
-\end{frame}
-
-\begin{frame}{Limitations}
+\begin{frame}{Conclusion}
     
 \end{frame}
 
 \begin{frame}{Perspectives}
-    Aller vers la détection plus subtile, d'émotions plus subtiles et pourquoi pas lien avec ironie ?
+    \emph{Aller vers la détection plus subtile, d'émotions plus subtiles et pourquoi pas lien avec ironie ?}
 \end{frame}
 
 
 \begin{frame}[plain]
     \begin{center}
+        \vspace{0.2cm}
         {\color{deepblue}\Huge Merci pour votre attention !}
         
         \vspace{0.5cm}
@@ -237,13 +309,13 @@ Architecture présentée dans le papier original~\footfullcite{Koch:2015}
             \begin{minipage}{0.45\textwidth}
                 \centering
                 \includegraphics[width=0.8\textwidth]{qrcode.jpg}
-                \caption{Site personnel}
+                \caption{Lien vers l'article}
             \end{minipage}
             \hspace{0.05\textwidth}
             \begin{minipage}{0.45\textwidth}
                 \centering
                 \includegraphics[width=0.8\textwidth]{qrcode.jpg}
-                \caption{Code SentEmoContext}
+                \caption{Code (dépôt GitHub)}
             \end{minipage}
         \end{figure}
     \end{center}
@@ -255,5 +327,166 @@ Architecture présentée dans le papier original~\footfullcite{Koch:2015}
 \frametitle{Références}
 \printbibliography
 \end{frame}
+
+% ========================================================
+% =====================  APPENDIX  =======================
+% ========================================================
+
+\appendix
+
+\begin{frame}[plain, noframenumbering]{About Classification Metrics}
+    Given:
+    \begin{itemize}
+        \item $P$ the quantity of positive predictions
+        \item $N$ the quantity of negative predictions
+        \item $\mathit{TP}$, $\mathit{TN}$, $\mathit{FP}$ and $\mathit{FN}$ the True Positives, True Negatives, False Positives and False Negatives
+    \end{itemize}
+        \begin{align}
+        \text{Accuracy} & = \dfrac{\mathit{TP} + \mathit{TN}}{P+N} \quad
+        \text{Precision} = \dfrac{\mathit{TP}}{\mathit{TP}+\mathit{FP}} \\[0.5ex]
+        \text{Recall} & = \dfrac{\mathit{TP}}{\mathit{TP}+\mathit{FN}}\quad 
+        \text{F}_1 = \dfrac{2\mathit{TP}}{2\mathit{TP}+\mathit{FP}+\mathit{FN}}
+    \end{align}
+    \end{frame}
+    
+    \begin{frame}[plain, noframenumbering]{About Matthews Correlation Coefficient (MCC) \textcolor{gray}{\footnotesize (Cramér, 1946)}}
+        Given:
+        \begin{equation}
+    N = \mathit{TN}+\mathit{TP}+\mathit{FN}+\mathit{FP} \enspace \text{,} \quad S = \frac{\mathit{TP}+\mathit{FN}}{N} \enspace \text{and} \quad P = \frac{\mathit{TP}+\mathit{FP}}{N}
+    \end{equation}
+    
+    MCC has been defined in \textcolor{gray}{\footnotesize (Matthews,~1975)} as:
+    
+    \begin{equation}
+        \text{MCC} = \frac{\mathit{TP}/ N-S \times P}{\sqrt{P S(1-S)(1-P)}}
+    \end{equation}
+    \end{frame}
+        
+    
+    \begin{frame}[plain, noframenumbering]{Distribution of emotions within the dialog}
+        \begin{figure}
+        \centering
+        \includegraphics[scale=0.55]{figures/emo_dist_sp_6_labelled.pdf}
+        \caption{\centering Cumulative number of expressed emotions \textit{w.r.t.} the utterance index}
+        \label{fig:emo_dist_6}
+    \end{figure}
+    \end{frame}
+    
+    \begin{frame}[plain, noframenumbering]{Some unexplainable predictions}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{figures/wtf.png}
+            \label{fig:wtf}
+        \end{figure}
+    \end{frame}
+    
+    \begin{frame}[plain, noframenumbering]{Preprocessing Pipeline}
+        \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{figures/preproc_static2.png}
+        \label{fig:preproc_pipeline_isolated2}
+        \caption{\centering Preprocessing steps for isolated utterance representations}
+    \end{figure}
+    \end{frame}
+    
+    \begin{frame}[plain, noframenumbering]{Preprocessing Pipeline}
+        \begin{figure}
+        \centering
+        \includegraphics[scale=0.56]{figures/bert-output-simple.pdf}
+        \label{fig:preproc_context_example4}
+    \end{figure}
+    \end{frame}
+    
+    \begin{frame}[plain, noframenumbering]{Prediction Distributions - Isolated Utterances}
+        \begin{figure}[!ht]
+        \centering
+    \begin{subfigure}{0.18\textwidth}
+      \includegraphics[width=\linewidth]{figures/no-emotion.png}
+      \caption*{No emotion}
+    \end{subfigure}\hfil
+    \begin{subfigure}{0.18\textwidth}
+      \includegraphics[width=\linewidth]{figures/anger.png}
+      \caption*{Anger}
+    \end{subfigure}\hfil
+    \begin{subfigure}{0.18\textwidth}
+      \includegraphics[width=\linewidth]{figures/disgust.png}
+      \caption*{Disgust}
+    \end{subfigure}\hfil
+    \begin{subfigure}{0.18\textwidth}
+      \includegraphics[width=\linewidth]{figures/fear.png}
+      \caption*{Fear}
+    \end{subfigure}
+    
+    \medskip
+    \begin{subfigure}{0.18\textwidth}
+      \includegraphics[width=\linewidth]{figures/happiness.png}
+      \caption*{Happiness}
+    \end{subfigure}\hfil 
+    \begin{subfigure}{0.18\textwidth}
+      \includegraphics[width=\linewidth]{figures/sadness.png}
+      \caption*{Sadness}
+    \end{subfigure}\hfil 
+    \begin{subfigure}{0.18\textwidth}
+      \includegraphics[width=\linewidth]{figures/surprise.png}
+      \caption*{Surprise}
+    \end{subfigure}\hfil
+    \begin{subfigure}{0.18\textwidth}
+      \includegraphics[width=\linewidth]{figures/legend.png}
+      \caption*{}
+    \end{subfigure}
+    % \caption{\centering Distribution of predictions for each actual emotion in the case of isolated utterances representations.}
+    \label{fig:pred_distrib}
+    \end{figure}
+    \end{frame}
+    
+    \begin{frame}[plain, noframenumbering]{Prediction Distributions - Contextual Utterances}
+    \begin{figure}[!ht]
+        \centering
+    \begin{subfigure}{0.19\textwidth}
+      \includegraphics[width=\linewidth]{figures/no-emotion_context.png}
+      \caption*{No emotion}
+    \end{subfigure}\hfil
+    \begin{subfigure}{0.19\textwidth}
+      \includegraphics[width=\linewidth]{figures/anger_context.png}
+      \caption*{Anger}
+    \end{subfigure}\hfil
+    \begin{subfigure}{0.19\textwidth}
+      \includegraphics[width=\linewidth]{figures/disgust_context.png}
+      \caption*{Disgust}
+    \end{subfigure}\hfil
+    \begin{subfigure}{0.19\textwidth}
+      \includegraphics[width=\linewidth]{figures/fear_context.png}
+      \caption*{Fear}
+    \end{subfigure}
+    
+    \medskip
+    \begin{subfigure}{0.19\textwidth}
+      \includegraphics[width=\linewidth]{figures/happiness_context.png}
+      \caption*{Happiness}
+    \end{subfigure}\hfil 
+    \begin{subfigure}{0.19\textwidth}
+      \includegraphics[width=\linewidth]{figures/sadness_context.png}
+      \caption*{Sadness}
+    \end{subfigure}\hfil 
+    \begin{subfigure}{0.19\textwidth}
+      \includegraphics[width=\linewidth]{figures/surprise_context.png}
+      \caption*{Surprise}
+    \end{subfigure}\hfil
+    \begin{subfigure}{0.19\textwidth}
+      \includegraphics[width=\linewidth]{figures/legend.png}
+      \caption*{}
+    \end{subfigure}
+    % \caption{\centering Distribution of predictions for each actual emotion in the case of contextual utterances representations.}
+    \label{fig:pred_distrib_context}
+    \end{figure}
+    \end{frame}
+    
+    \begin{frame}[plain, noframenumbering]{Performances - Isolated Utterances}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.9\textwidth]{figures/results_static_only.png}
+            \label{fig:results_static}
+        \end{figure}
+    \end{frame}
 
 \end{document}
