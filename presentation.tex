@@ -46,7 +46,7 @@
 
 % TITLEPAGE
 \author[Gendron \& Guibon]{\large Barbara Gendron-Audebert$^{1,2}$ et Gaël Guibon$^1$ \\ \texttt{\{prénom.nom\}@loria.fr}}
-\title[\textsl{SentEmoContext} (SEC) : ERC en contexte]{SEC : contexte émotionnel phrastique intégré pour la reconnaissance émotionnelle efficiente dans la conversation \vspace{5pt}}
+\title[\textsl{Metric learning} pour l'ERC en contexte]{SEC : contexte émotionnel phrastique intégré pour la reconnaissance émotionnelle efficiente dans la conversation \vspace{5pt}}
 % \subtitle{\vspace{10pt} Session commune 1 - JEP-TALN 2024}
 \date[JEP-TALN 2024 - 9 juillet 2024]{JEP-TALN 2024, 09 juillet 2024, Toulouse}
 \institute[LORIA, UL, CNRS]{\small(1) LORIA, Université de Lorraine, CNRS \qquad (2) Université du Luxembourg}
@@ -95,8 +95,8 @@
     \visible<2->{
     Questions de recherche :    
     \begin{itemize}
-        \item Comment utiliser l'information provenant du contexte conversationnel pour guider la détection d'émotions en conversation ?
-        \item Est-ce que la prise en compte du contexte conversationnel permet d'améliorer la détection d'émotions en conversation dans le cas dyadique ?
+        \item \textbf{RQ1:} Comment utiliser l'information provenant du contexte conversationnel pour guider la détection d'émotions en conversation ?
+        \item \textbf{RQ2:} Est-ce que la prise en compte du contexte conversationnel permet d'améliorer la détection d'émotions en conversation dans le cas dyadique ?
     \end{itemize}
     }
 \end{frame}
@@ -105,16 +105,40 @@
 
 \begin{frame}{Apport du \textsl{deep learning}}
     \begin{itemize}
-        \item La profondeur du réseau neuronal permet de traiter certains aspects plus subtils du discours (parallèle avec la vision si le temps ?)
-        \item De nombreuses structures séquentielles à disposition
-        \item Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC~\footfullcite{Poria:2019}$^{,}$\footfullcite{Pereira:2022}
+        \item La \textbf{profondeur} du réseau neuronal permet de traiter certains aspects plus subtils du discours. % (parallèle avec la vision si le temps ?)
+        \item De nombreuses structures \textbf{séquentielles} à disposition
+        \item Apprentissage sur le contexte grâce à l'\textbf{attention}~\footfullcite{Bahdanau:2014} et aux architectures associées~\footfullcite{Vaswani:2017}.
     \end{itemize}
     \vspace*{10pt}
-    \emph{Ici un lien avec notre approche montrant la richesse de notre exploration des réseaux neuronaux. En effet, nous ne nous sommes pas limités aux derniers Transformers mais avons aussi testé des MLP, LSTM, Encoder-only et Decoder-only. Je pense que ça mérite d'être souligné.}
+
+Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC.~\footfullcite{Poria:2019}$^{,}$\footfullcite{Pereira:2022}
+% Je mets ces deux références là qui sont des papiers fondateurs mais c'est vraiment la base de notre approche, et on va voir que la raison pour ça c'est que cela est omniprésent dans l'état de l'art
 \end{frame}
 
 \begin{frame}{Travaux connexes}
-    \emph{Présenter ici rapidement quelques approches utilisant du deep learning (en gros les usines à gaz de notre tableau SOTA, en précisant ce qu'ils rajoutent), avec peut-être une transition vers le metric learning grâce à un exemple qui présente du meta-learning / apprentissage contrastif.}
+    % \emph{Présenter ici rapidement quelques approches utilisant du deep learning (en gros les usines à gaz de notre tableau SOTA, en précisant ce qu'ils rajoutent), avec peut-être une transition vers le metric learning grâce à un exemple qui présente du meta-learning / apprentissage contrastif.}
+    \begin{itemize}
+        \item Tâche traditionnellement évaluée en microF1, \textbf{de plus en plus en macroF1}.
+    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.9\textwidth]{sota-chrono-plot.png}
+        \caption{\centering Modèles état-de-l'art en ERC suivant le microF1 sur les données textuelles de \texttt{DailyDialog} (6 étiquettes émotionnelles)}
+    \end{figure}
+    % \begin{figure}
+    %     \centering
+    %     \includegraphics[width=\textwidth]{sota-chrono.png}
+    %     \caption{\centering Modèles état-de-l'art en ERC. Les médailles indiquent les meilleurs scores microF1.}
+    % \end{figure}
+\end{frame}
+
+\begin{frame}{Travaux connexes}
+    % \emph{Ici un lien avec notre approche montrant la richesse de notre exploration des réseaux neuronaux. En effet, nous ne nous sommes pas limités aux derniers Transformers mais avons aussi testé des MLP, LSTM, Encoder-only et Decoder-only. Je pense que ça mérite d'être souligné.}
+    \begin{figure}
+        \centering
+        \caption{\centering Vue d'ensemble des architectures de modèle utilisées par les modèles état-de-l'art en ERC. Les modèles \textbf{en gras} intègrent des graphes de connaissances.}
+        \includegraphics[width=0.9\textwidth]{sota-chrono-graph.png}
+    \end{figure}
 \end{frame}
 
 \begin{frame}{Apport du \textsl{metric learning}}
@@ -237,7 +261,7 @@
     \framesubtitle{Prédictions d'émotions \textbf{avec contexte} (propos contextuels)}
     \begin{figure}
         \centering
-        \includegraphics[width=0.9\textwidth]{contextual_utterances_training_fr.png}
+        \includegraphics[width=\textwidth]{contextual_utterances_training_fr.png}
         \caption{\centering Prédiction d'émotions sur des représentations de propos contextuelles.}
     \end{figure}
 \end{frame}
