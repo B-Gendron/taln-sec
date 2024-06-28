@@ -50,7 +50,7 @@
 \title[\textsl{Metric learning} pour l'ERC en contexte]{SEC : contexte émotionnel phrastique intégré pour la reconnaissance émotionnelle efficiente dans la conversation \vspace{5pt}}
 % \subtitle{\vspace{10pt} Session commune 1 - JEP-TALN 2024}
 % \date[JEP-TALN 2024 - 9 juillet 2024]{JEP-TALN 2024, 09 juillet 2024, Toulouse}
-\date{}
+\date[JEP-TALN 2024]{}
 \institute[LORIA, UL, CNRS]{\small(1) LORIA, Université de Lorraine, CNRS \qquad (2) Université du Luxembourg}
 
 \begin{document}
@@ -154,12 +154,9 @@ Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC.~\footful
     \item L'extraction de relations entre les labels de manière assez naturelle puisque c'est comme ça que le modèle a été entraîné
     \item Une adaptation intrinsèque à l'apprentissage avec peu d'essais (\texttt{few-shot learning}), ce qui permet d'apprendre des labels émotionnels peu représentés/dotés
 \end{itemize}
-}
+Donner l'exemple de protoseq}
 \end{frame}
 
-\begin{frame}{Travaux connexes}
-    \emph{Donner des exemples en metric learning, notamment protosec !}
-\end{frame}
 
 \begin{frame}{Réseaux siamois}
     \only<1>{
@@ -238,7 +235,7 @@ Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC.~\footful
     Jeu de données \texttt{DailyDialog}~\footfullcite{Li:2017}
     \begin{itemize}
         \item 13 118 dialogues dyadiques en anglais sur des sujets de la vie quotidienne
-        \item<2-> Annotation \textcolor{roose}{\bf au niveau du tour de parole} : \texttt{happiness}, \texttt{anger}, \texttt{disgust}, \texttt{fear}, \texttt{surprise}, \texttt{sadness} et \texttt{no emotion}
+        \item Annotation \textcolor{roose}{\bf au niveau du tour de parole} : \texttt{happiness}, \texttt{anger}, \texttt{disgust}, \texttt{fear}, \texttt{surprise}, \texttt{sadness} et \texttt{no emotion}
     \end{itemize}
 \vspace*{5pt}
 \visible<3->{
