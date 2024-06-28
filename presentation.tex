@@ -30,7 +30,8 @@
 
 % Setup colors title page + footline
 % \definecolor{deepblue}{RGB}{0, 50, 100} 
-\definecolor{deepblue}{RGB}{226, 0, 122} 
+\definecolor{deepblue}{RGB}{142, 60, 140} 
+\definecolor{roose}{RGB}{226, 0, 122}
 \setbeamercolor{title}{bg=deepblue, fg=white} 
 \setbeamercolor{frametitle}{bg=deepblue, fg=white}
 \setbeamercolor{footline}{bg=deepblue, fg=white}
@@ -76,7 +77,7 @@
 
 \section{Introduction}
 
-\begin{frame}{Contexte}
+\begin{frame}{\textsl{Metric learning} pour la reconnaissance d'émotions en contexte}
     \emph{
     \begin{itemize}
         \item Comme quoi on a de plus en plus de discours à caractère émotionnel dans les contenus générés par les utilisateurs.
@@ -94,14 +95,14 @@
     \begin{itemize}
         \item Détection et identification des émotions dans le contenu généré par les utilisateurs
         \item Dialogues sous forme de conversations dyadiques % le type de données que l'on étudie
-        \item Reconnaissance d'Émotions en Conversation (ERC) % la tâche que l'on va chercher à évaluer 
+        \item Reconnaissance d'Émotions en Conversation (\textcolor{roose}{ERC}) % la tâche que l'on va chercher à évaluer 
     \end{itemize}
     \vspace{10pt}
     \visible<2->{
     Questions de recherche :    
     \begin{itemize}
-        \item \textbf{RQ1:} Comment utiliser l'information provenant du contexte conversationnel pour guider la détection d'émotions en conversation ?
-        \item \textbf{RQ2:} Est-ce que la prise en compte du contexte conversationnel permet d'améliorer la détection d'émotions en conversation dans le cas dyadique ?
+        \item \textcolor{roose}{\bf RQ1:} Comment utiliser l'information provenant du contexte conversationnel pour guider la détection d'émotions en conversation ?
+        \item \textcolor{roose}{\bf RQ2:} Est-ce que la prise en compte du contexte conversationnel permet d'améliorer la détection d'émotions en conversation dans le cas dyadique ?
     \end{itemize}
     }
 \end{frame}
@@ -110,9 +111,9 @@
 
 \begin{frame}{Apport du \textsl{deep learning}}
     \begin{itemize}
-        \item La \textbf{profondeur} du réseau neuronal permet de traiter certains aspects plus subtils du discours. % (parallèle avec la vision si le temps ?)
-        \item De nombreuses structures \textbf{séquentielles} à disposition
-        \item Apprentissage sur le contexte grâce à l'\textbf{attention}~\footfullcite{Bahdanau:2014} et aux architectures associées~\footfullcite{Vaswani:2017}.
+        \item La \textcolor{roose}{\bf profondeur} du réseau neuronal permet de traiter certains aspects plus subtils du discours % (parallèle avec la vision si le temps ?)
+        \item De nombreuses structures \textcolor{roose}{\bf séquentielles} à disposition
+        \item Apprentissage sur le contexte grâce à l'\textcolor{roose}{\bf attention}~\footfullcite{Bahdanau:2014} et aux architectures associées~\footfullcite{Vaswani:2017}
     \end{itemize}
     \vspace*{10pt}
 
@@ -123,7 +124,7 @@ Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC.~\footful
 \begin{frame}{Travaux connexes}
     % \emph{Présenter ici rapidement quelques approches utilisant du deep learning (en gros les usines à gaz de notre tableau SOTA, en précisant ce qu'ils rajoutent), avec peut-être une transition vers le metric learning grâce à un exemple qui présente du meta-learning / apprentissage contrastif.}
     \begin{itemize}
-        \item Tâche traditionnellement évaluée en microF1, \textbf{de plus en plus en macroF1}.
+        \item Tâche traditionnellement évaluée en microF1, \textcolor{roose}{\bf de plus en plus en macroF1}
     \end{itemize}
     \begin{figure}
         \centering
@@ -201,14 +202,14 @@ Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC.~\footful
         \vspace{0.5cm}
         Objectif de la \textsl{triplet loss}: 
         \begin{itemize}
-        \item Minimiser $d(A,P)$ 
-        \item Maximiser $d(A,N)$
+        \item Minimiser \textcolor{roose}{$d(A,P)$}
+        \item Maximiser \textcolor{roose}{$d(A,N)$}
         \end{itemize}
     \end{column}
     \begin{column}{0.65\linewidth}
 \visible<2->{
         \begin{equation*}
-            \mathcal{L}(a, p, n) = \text{max}\left\{ \textcolor<3>{blue}{d(a, p) - d(a, n)} + \textcolor<4>{blue}{\texttt{marge}}, 0\right\}
+            \mathcal{L}(a, p, n) = \text{max}\left\{ \textcolor<3>{roose}{d(a, p) - d(a, n)} + \textcolor<4>{blue}{\texttt{marge}}, 0\right\}
         \end{equation*}
         
         \only<2-3>{
@@ -237,9 +238,9 @@ Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC.~\footful
     Jeu de données \texttt{DailyDialog}~\footfullcite{Li:2017}
     \begin{itemize}
         \item 13 118 dialogues dyadiques en anglais sur des sujets de la vie quotidienne
-        \item<2-> Annotation au niveau du tour de parole : \texttt{happiness}, \texttt{anger}, \texttt{disgust}, \texttt{fear}, \texttt{surprise}, \texttt{sadness} et \texttt{no emotion}
+        \item<2-> Annotation \textcolor{roose}{\bf au niveau du tour de parole} : \texttt{happiness}, \texttt{anger}, \texttt{disgust}, \texttt{fear}, \texttt{surprise}, \texttt{sadness} et \texttt{no emotion}
     \end{itemize}
-
+\vspace*{5pt}
 \visible<3->{
     \begin{figure}[h]
         \centering
@@ -273,13 +274,11 @@ Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC.~\footful
 
 \begin{frame}{Évaluations quantitative et qualitative}
     \framesubtitle{Métriques d'évaluation}
-\emph{
 \begin{itemize}
     \item MicroF1 : choix historiquement privilégié par la littérature
-    \item MacroF1 parait plus pertinent car favorise des modèles plus polyvalents en reconnaissance des émotions, donc moins biaisé et plus aptes à distinguer des émotions nouvelles
-    \item MCC (\textsl{Matthews Correlation Coefficient}) : métrique plus contraignante mais essentielle pour assurer la pertinence de l'entraînement.
+    \item MacroF1 : métrique plus exigeante qui favorise une \textcolor{roose}{\bf reconnaissance émotionnelle polyvalente}
+    \item MCC (\textsl{Matthews Correlation Coefficient}) : métrique plus contraignante mais essentielle pour assurer la pertinence de l'entraînement
 \end{itemize}
-}
 Le MCC est défini comme suit~\footfullcite{Matthews:1975} :
 \begin{equation}
     \text{MCC} = \frac{\mathit{TP}/ N-S \times P}{\sqrt{P S(1-S)(1-P)}}

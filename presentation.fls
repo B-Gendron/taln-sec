@@ -417,6 +417,7 @@ INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/jep-ta
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/jep-taln.png
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/jep-taln.png
 INPUT /usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmss9.tfm
@@ -424,7 +425,6 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmsso9.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-plot.png
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-plot.png
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-plot.png
