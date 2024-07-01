@@ -428,14 +428,11 @@ INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/qrcode
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/qrcode.jpg
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/qrcode.jpg
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/qrcode.jpg
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmss9.tfm
+INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-plot.png
+INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-plot.png
+INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-plot.png
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmsso9.tfm
-INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-plot.png
-INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-plot.png
-INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-plot.png
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
@@ -443,7 +440,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-graph.png
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-graph.png
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-graph.png
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmtti10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmss9.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmsso9.tfm
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/koch1.png
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/koch1.png
 INPUT /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/koch1.png
@@ -608,4 +607,3 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso9.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtti10.pfb

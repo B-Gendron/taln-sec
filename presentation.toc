@@ -5,10 +5,10 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {2}{État-de-l'art}{5}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Méthodologie}{16}{0}{3}
+\beamer@sectionintoc {3}{Méthodologie}{15}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Résultats}{21}{0}{4}
+\beamer@sectionintoc {4}{Résultats}{20}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Conclusion}{24}{0}{5}
+\beamer@sectionintoc {5}{Conclusion}{23}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Bibliographie}{27}{0}{6}
+\beamer@sectionintoc {6}{Références}{26}{0}{6}

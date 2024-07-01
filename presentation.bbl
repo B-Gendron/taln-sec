@@ -17,43 +17,49 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
-  \entry{Bahdanau:2014}{misc}{}
-    \name{author}{4}{}{%
-      {{hash=BD}{%
-         family={Bahdanau},
-         familyi={B\bibinitperiod},
-         given={D.},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=CK}{%
-         family={Cho},
-         familyi={C\bibinitperiod},
-         given={K.},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=BY}{%
-         family={Bengio},
-         familyi={B\bibinitperiod},
-         given={Y.},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=BG}{%
-         family={Bengio},
-         familyi={B\bibinitperiod},
+  \entry{guibon:2021:protoseq}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=GG}{%
+         family={Guibon},
+         familyi={G\bibinitperiod},
          given={G.},
          giveni={G\bibinitperiod},
       }}%
+      {{hash=LM}{%
+         family={Labeau},
+         familyi={L\bibinitperiod},
+         given={Matthieu},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Flamein},
+         familyi={F\bibinitperiod},
+         given={H{\'e}l{\`e}ne},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Lefeuvre},
+         familyi={L\bibinitperiod},
+         given={Luce},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Clavel},
+         familyi={C\bibinitperiod},
+         given={Chlo{\'e}},
+         giveni={C\bibinitperiod},
+      }}%
     }
-    \strng{namehash}{BD+1}
-    \strng{fullhash}{BDCKBYBG1}
+    \strng{namehash}{GG+1}
+    \strng{fullhash}{GGLMFHLLCC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{howpublished}{ICLR}
-    \field{title}{Neural Machine Translation by Jointly Learning to Align and
-  Translate}
-    \field{year}{2015}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{howpublished}{EMNLP}
+    \field{title}{Few-Shot Emotion Recognition in Conversation with Sequential
+  Prototypical Networks}
+    \field{year}{2021}
   \endentry
 
   \entry{Koch:2015}{misc}{}
@@ -251,65 +257,86 @@
     \field{year}{2019}
   \endentry
 
-  \entry{Vaswani:2017}{misc}{}
-    \name{author}{8}{}{%
-      {{hash=VA}{%
-         family={Vaswani},
-         familyi={V\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SN}{%
-         family={Shazeer},
+  \entry{Snell:2017}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=SJ}{%
+         family={Snell},
          familyi={S\bibinitperiod},
-         given={Noam},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=PN}{%
-         family={Parmar},
-         familyi={P\bibinitperiod},
-         given={Niki},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=UJ}{%
-         family={Uszkoreit},
-         familyi={U\bibinitperiod},
-         given={Jakob},
+         given={J.},
          giveni={J\bibinitperiod},
       }}%
-      {{hash=JL}{%
-         family={Jones},
-         familyi={J\bibinitperiod},
-         given={Llion},
-         giveni={L\bibinitperiod},
+      {{hash=SK}{%
+         family={Swersky},
+         familyi={S\bibinitperiod},
+         given={Kevin},
+         giveni={K\bibinitperiod},
       }}%
-      {{hash=GAN}{%
-         family={Gomez},
-         familyi={G\bibinitperiod},
-         given={Aidan\bibnamedelima N.},
-         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      {{hash=ZR}{%
+         family={Zemel},
+         familyi={Z\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
       }}%
-      {{hash=KL}{%
-         family={Kaiser},
-         familyi={K\bibinitperiod},
-         given={Lukasz},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=PI}{%
-         family={Polosukhin},
-         familyi={P\bibinitperiod},
-         given={Illia},
-         giveni={I\bibinitperiod},
+      {{hash=BG}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={G},
+         giveni={G},
       }}%
     }
-    \strng{namehash}{VA+1}
-    \strng{fullhash}{VASNPNUJJLGANKLPI1}
+    \strng{namehash}{SJ+1}
+    \strng{fullhash}{SJSKZRBG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{howpublished}{NeurIPS}
+    \field{title}{Prototypical Networks for Few-Shot Learning}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Vinyals:2017}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=VO}{%
+         family={Vinyals},
+         familyi={V\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Blundell},
+         familyi={B\bibinitperiod},
+         given={Charles},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Lillicrap},
+         familyi={L\bibinitperiod},
+         given={Timothy},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kavukcuoglu},
+         familyi={K\bibinitperiod},
+         given={Koray},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wierstra},
+         familyi={W\bibinitperiod},
+         given={Daan},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VO+1}
+    \strng{fullhash}{VOBCLTKKWD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{V}
     \field{sortinithash}{V}
-    \field{title}{Attention Is All You Need}
-    \field{year}{2017}
+    \field{howpublished}{NeurIPS}
+    \field{title}{Matching Networks for One Shot Learning}
+    \field{year}{2016}
   \endentry
 \enddatalist
 \endinput
