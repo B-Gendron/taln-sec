@@ -217,6 +217,26 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Plutchik2001TheNO}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PR}{%
+         family={Plutchik},
+         familyi={P\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PR1}
+    \strng{fullhash}{PR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{howpublished}{American Scientist}
+    \field{title}{The Nature of Emotions}
+    \field{year}{2001}
+  \endentry
+
   \entry{Poria:2019}{misc}{}
     \name{author}{4}{}{%
       {{hash=PS}{%
@@ -254,6 +274,45 @@
     \field{title}{Emotion Recognition in Conversation: Research Challenges,
   Datasets, and Recent Advances}
     \field{volume}{7}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Rashkin:2019}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=RH}{%
+         family={Rashkin},
+         familyi={R\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SEM}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Eric\bibnamedelima Michael},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Margaret},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BYL}{%
+         family={Boureau},
+         familyi={B\bibinitperiod},
+         given={Y-Lan},
+         giveni={Y\bibinithyphendelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RH+1}
+    \strng{fullhash}{RHSEMLMBYL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{howpublished}{ACL}
+    \field{title}{Towards Empathetic Open-domain Conversation Models: A New
+  Benchmark and Dataset}
     \field{year}{2019}
   \endentry
 

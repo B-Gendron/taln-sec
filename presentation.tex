@@ -158,7 +158,7 @@
 \begin{frame}{Apports du \textsl{deep learning} et du \textsl{metric learning}}
     Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC.~\footfullcite{Poria:2019,Pereira:2022}\\
     %     \item Apprentissage sur le contexte grâce à l'\textcolor{roose}{\bf attention}~\footfullcite{Bahdanau:2014} et aux architectures associées~\footfullcite{Vaswani:2017}
-    \vspace*{10pt}
+    \vspace*{8pt}
     Le \textsl{deep learning} par \textcolor{roose}{\bf apprentissage contrastif} permet :
     \begin{itemize}
         \item Un cadre de classification souple permettant l'extraction de relations entre les labels et la prédiction sur des labels inconnus%sans avoir besoin de changer le modèle ni l'entraînement
@@ -172,21 +172,21 @@
     \only<1>{
         \begin{figure}
             \centering
-            \includegraphics[width=0.45\textwidth]{koch1.png}
+            \includegraphics[width=0.48\textwidth]{koch1.png}
             \caption{\centering Architecture des réseaux siamois~\footfullcite{Koch:2015}}
         \end{figure}
     }
     \only<2>{
         \begin{figure}
             \centering
-            \includegraphics[width=0.45\textwidth]{koch2.png}
+            \includegraphics[width=0.48\textwidth]{koch2.png}
             \caption{\centering Architecture des réseaux siamois~\footfullcite{Koch:2015}}
         \end{figure}
     }
     \only<3>{
         \begin{figure}
             \centering
-            \includegraphics[width=0.45\textwidth]{koch3.png}
+            \includegraphics[width=0.48\textwidth]{koch3.png}
             \caption{\centering Architecture des réseaux siamois~\footfullcite{Koch:2015}}
         \end{figure}
     }
@@ -241,14 +241,14 @@
 
 \section{Méthodologie}
 
-\begin{frame}{Protocole expérimental}
+\begin{frame}{Données}
     Jeu de données \texttt{DailyDialog}~\footfullcite{Li:2017}
     \begin{itemize}
         \item 13 118 dialogues dyadiques en anglais sur des sujets de la vie quotidienne
         \item Annotation \textcolor{roose}{\bf au niveau du tour de parole} : \texttt{happiness}, \texttt{anger}, \texttt{disgust}, \texttt{fear}, \texttt{surprise}, \texttt{sadness} et \texttt{no emotion}
     \end{itemize}
 \vspace*{5pt}
-\visible<3->{
+\visible<2->{
     \begin{figure}[h]
         \centering
         % \caption{\centering Description des données de \texttt{DailyDialog}}
@@ -270,8 +270,7 @@
 }
 \end{frame}
 
-\begin{frame}{Procédure d'entraînement}
-    \framesubtitle{Prédictions d'émotions \textbf{avec contexte} (propos contextuels)}
+\begin{frame}{Procédure d'entraînement - prédictions d'émotions avec contexte}
     \begin{figure}
         \centering
         \includegraphics[width=\textwidth]{contextual_utterances_training_fr.png}
@@ -279,18 +278,19 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}{Évaluations quantitative et qualitative}
-    \framesubtitle{Métriques d'évaluation}
+\begin{frame}{Métriques d'évaluation}
 \begin{itemize}
     \item MicroF1 : choix historiquement privilégié par la littérature
     \item MacroF1 : métrique plus exigeante qui favorise une \textcolor{roose}{\bf reconnaissance émotionnelle polyvalente}
-    \item MCC (\textsl{Matthews Correlation Coefficient}) : métrique plus contraignante mais essentielle pour assurer la pertinence de l'entraînement
+    \item MCC (\textsl{Matthews Correlation Coefficient}) : métrique plus contraignante utilisée pour des classes fortement déséquilibrées
 \end{itemize}
+\visible<2->{
 Le MCC est défini comme suit~\footfullcite{Matthews:1975} :
 \begin{equation}
     \text{MCC} = \frac{\mathit{TP}/ N-S \times P}{\sqrt{P S(1-S)(1-P)}}
 \end{equation}
 Où $TP$ est le nombre de vrais positifs, $N$ la taille des données, $P$ la précision et $S$ le rappel (pour \textsl{sensitivity}).
+}
 \end{frame}
 
 \section{Résultats}
@@ -305,7 +305,27 @@ Où $TP$ est le nombre de vrais positifs, $N$ la taille des données, $P$ la pr�
 \end{frame}
 
 \begin{frame}{Évaluation qualitative}
-    \emph{Discuter la question de la subjectivité de l'annotation}
+    \begin{itemize}
+        \item Impact de l'information contextuelle
+    \end{itemize}
+    % Montre à quel point il est difficile de tirer partie positivement du contexte conversationnel. Si on a des éxemples ou le contexte peut aider (CDH), il y en a aussi ou le contexte est vecteur d'une information importante qui ne semble pas réussir à se transferer
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=\textwidth]{hsh.png}
+        \caption{\centering Deux exemples de prédictions sur des dialogues où le contexte semble être pris en compte (\textsl{à gauche}) et ne pas être utilisé (\textsl{à droite})}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Évaluation qualitative}
+    \begin{itemize}
+        \item Pertinence des prédictions
+    \end{itemize}
+    % Cela revoie directement à la subjectivité de l'annotation
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=\textwidth]{gp.png}
+        \caption{\centering Un exemple de dialogue où une prédiction incorrecte paraît légitime}
+    \end{figure}
 \end{frame}
 
 \begin{frame}{Comparaison avec les LLMs}
@@ -324,11 +344,32 @@ Où $TP$ est le nombre de vrais positifs, $N$ la taille des données, $P$ la pr�
 \section{Conclusion}
 
 \begin{frame}{Conclusion}
-    
+% Retour sur les questions de recherche :    
+\textcolor{roose}{\bf RQ1:} Comment utiliser l'information provenant du contexte conversationnel pour guider la détection d'émotions en conversation ?
+    \begin{itemize}
+        \item Déployer de l'attention à l'échelle du dialogue
+        \item Modification des représentations des propos
+    \end{itemize}
+\vspace{10pt}
+\visible<2->{
+\textcolor{roose}{\bf RQ2:} Est-ce que la prise en compte du contexte conversationnel permet d'améliorer la détection d'émotions en conversation dans le cas dyadique ?
+    \begin{itemize}
+        \item Enjeu de la stabilité du modèle
+        \item Deployer l'attention engendre du bruit et propage les émotions
+    \end{itemize}
+}
 \end{frame}
 
 \begin{frame}{Perspectives}
-    \emph{Aller vers la détection plus subtile, d'émotions plus subtiles et pourquoi pas lien avec ironie ?}
+    \begin{itemize}
+        \item Prédictions sur des étiquettes émotionnelles inconnues du modèle
+        \item Enrichissement des données d'entraînement pour améliorer la stabilité du modèles (exemple: \texttt{EmpatheticDialogues}~\footfullcite{Rashkin:2019}) 
+    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.23\textwidth]{emotion_wheel.png}
+        \caption{\centering Roue des émotions de Plutchik~\footfullcite{Plutchik2001TheNO}}
+    \end{figure}
 \end{frame}
 
 
@@ -371,7 +412,7 @@ Où $TP$ est le nombre de vrais positifs, $N$ la taille des données, $P$ la pr�
         \item canidés : \url{https://www.livres-medicaux.com/sante-tout-public/20544-canides-du-monde-loups-chiens-sauvages-renards-chacals-coyotes-et-apparentes.html}
         \item loup arctique : \url{https://www.josephfiler.com/photo/canada-arctic-wolf-0348/}
         \item tigre : \url{https://evasion-online.com/tag/tigre}
-        \item bébé tigre : \url{http://www.trouver-tout.fr/bebe-tigre-blanc/}
+        \item tigreau : \url{http://www.trouver-tout.fr/bebe-tigre-blanc/}
         \item caracal : \url{https://fr.wikipedia.org/wiki/Caracal}
         \item lionne : \url{https://www.futura-sciences.com/fonds-ecran/lion-lionne-lionceaux-1625/}
         \item renard : \url{http://eliotkitty.centerblog.net/27563-Magnifique-renard}
