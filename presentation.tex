@@ -159,6 +159,7 @@
     Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC.~\footfullcite{Poria:2019,Pereira:2022}\\
     %     \item Apprentissage sur le contexte grâce à l'\textcolor{roose}{\bf attention}~\footfullcite{Bahdanau:2014} et aux architectures associées~\footfullcite{Vaswani:2017}
     \vspace*{8pt}
+    \visible<2->{
     Le \textsl{deep learning} par \textcolor{roose}{\bf apprentissage contrastif} permet :
     \begin{itemize}
         \item Un cadre de classification souple permettant l'extraction de relations entre les labels et la prédiction sur des labels inconnus%sans avoir besoin de changer le modèle ni l'entraînement
@@ -166,6 +167,7 @@
         \item Une adaptation intrinsèque à l'apprentissage \textsl{few-shot} pour apprendre des émotions peu représentées
         \item Un variété d'architectures : réseaux de correspondances~\footfullcite{Vinyals:2017}, siamois\footfullcite{Koch:2015}, prototypiques~\footfullcite{Snell:2017,guibon:2021:protoseq} % donner l'exemple de protoseq
     \end{itemize}
+    }
 \end{frame}
 
 \begin{frame}{Réseaux siamois}
@@ -355,7 +357,7 @@ Où $TP$ est le nombre de vrais positifs, $N$ la taille des données, $P$ la pr�
 \textcolor{roose}{\bf RQ2:} Est-ce que la prise en compte du contexte conversationnel permet d'améliorer la détection d'émotions en conversation dans le cas dyadique ?
     \begin{itemize}
         \item Enjeu de la stabilité du modèle
-        \item Deployer l'attention engendre du bruit et propage les émotions
+        \item Déployer l'attention engendre du bruit et propage les émotions
     \end{itemize}
 }
 \end{frame}
@@ -363,7 +365,7 @@ Où $TP$ est le nombre de vrais positifs, $N$ la taille des données, $P$ la pr�
 \begin{frame}{Perspectives}
     \begin{itemize}
         \item Prédictions sur des étiquettes émotionnelles inconnues du modèle
-        \item Enrichissement des données d'entraînement pour améliorer la stabilité du modèles (exemple: \texttt{EmpatheticDialogues}~\footfullcite{Rashkin:2019}) 
+        \item Enrichissement des données d'entraînement pour améliorer la stabilité du modèle (exemple: \texttt{EmpatheticDialogues}~\footfullcite{Rashkin:2019}) 
     \end{itemize}
     \begin{figure}
         \centering
