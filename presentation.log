@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.12)  3 JUL 2024 08:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.12)  5 JUL 2024 09:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -868,35 +868,35 @@ File: biblatex.cfg
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 49.
+(hyperref)                removing `math shift' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 49.
+(hyperref)                removing `superscript' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 49.
+(hyperref)                removing `math shift' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 49.
+(hyperref)                removing `math shift' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 49.
+(hyperref)                removing `superscript' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 49.
+(hyperref)                removing `math shift' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 49.
+(hyperref)                removing `\\' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 56.
+(hyperref)                removing `\new@ifnextchar' on input line 60.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -909,23 +909,23 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 ) (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 60.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -983,7 +983,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box77
-Package hyperref Info: Link coloring OFF on input line 56.
+Package hyperref Info: Link coloring OFF on input line 60.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -993,59 +993,59 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count469
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
  (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.out) (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.out)
 \@outlinefile=\write6
 \openout6 = `presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 56.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 56.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 56.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 56.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 60.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 56.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 56.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 56.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 56.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 56.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 56.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 56.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 56.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 56.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 56.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 56.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 56.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 56.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 56.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 56.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 56.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 56.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 56.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 56.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 56.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 60.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1059,9 +1059,9 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \degres on input line 56.
-LaTeX Info: Redefining \dots on input line 56.
-LaTeX Info: Redefining \up on input line 56.
+LaTeX Info: Redefining \degres on input line 60.
+LaTeX Info: Redefining \dots on input line 60.
+LaTeX Info: Redefining \up on input line 60.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1088,67 +1088,67 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 56.
-Package biblatex Info: Reference segment=0 on input line 56.
+Package biblatex Info: Reference section=0 on input line 60.
+Package biblatex Info: Reference segment=0 on input line 60.
  (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.nav)
 <figures/unilu.png, id=46, 1204.5pt x 1018.80624pt>
 File: figures/unilu.png Graphic file (type png)
 <use figures/unilu.png>
-Package pdftex.def Info: figures/unilu.png  used on input line 76.
+Package pdftex.def Info: figures/unilu.png  used on input line 82.
 (pdftex.def)             Requested size: 48.17178pt x 40.7453pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 76.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 82.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 76.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 82.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 76.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 82.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 76.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 82.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 76.
+(Font)              <10.95> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 76.
+(Font)              <8> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 76.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
+(Font)              <6> on input line 82.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 82.
 <figures/labo-logos.pdf, id=48, 905.83879pt x 161.77489pt>
 File: figures/labo-logos.pdf Graphic file (type pdf)
 <use figures/labo-logos.pdf>
-Package pdftex.def Info: figures/labo-logos.pdf  used on input line 76.
+Package pdftex.def Info: figures/labo-logos.pdf  used on input line 82.
 (pdftex.def)             Requested size: 226.45914pt x 40.44362pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 76.
+(Font)              <12> on input line 82.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 76.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 82.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 82.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 <figures/jep-taln.png, id=55, 549.7338pt x 219.7008pt>
 File: figures/jep-taln.png Graphic file (type png)
 <use figures/jep-taln.png>
-Package pdftex.def Info: figures/jep-taln.png  used on input line 76.
+Package pdftex.def Info: figures/jep-taln.png  used on input line 82.
 (pdftex.def)             Requested size: 109.94481pt x 43.93938pt.
  [1
 
@@ -1156,166 +1156,139 @@ Package pdftex.def Info: figures/jep-taln.png  used on input line 76.
 <figures/meta-representation.png, id=75, 822.4326pt x 468.3096pt>
 File: figures/meta-representation.png Graphic file (type png)
 <use figures/meta-representation.png>
-Package pdftex.def Info: figures/meta-representation.png  used on input line 95.
+Package pdftex.def Info: figures/meta-representation.png  used on input line 101.
 (pdftex.def)             Requested size: 346.78854pt x 197.46758pt.
  [2
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/meta-representation.png>]
-<figures/qrcode.jpg, id=85, 2462.19875pt x 2462.19875pt>
-File: figures/qrcode.jpg Graphic file (type jpg)
-<use figures/qrcode.jpg>
-Package pdftex.def Info: figures/qrcode.jpg  used on input line 128.
-(pdftex.def)             Requested size: 43.34773pt x 43.3183pt.
+<figures/code-paper.png, id=85, 1018.80624pt x 1018.80624pt>
+File: figures/code-paper.png Graphic file (type png)
+<use figures/code-paper.png>
+Package pdftex.def Info: figures/code-paper.png  used on input line 134.
+(pdftex.def)             Requested size: 43.34773pt x 43.34143pt.
  [3
 
- </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/qrcode.jpg>]
-File: figures/qrcode.jpg Graphic file (type jpg)
-<use figures/qrcode.jpg>
-Package pdftex.def Info: figures/qrcode.jpg  used on input line 128.
-(pdftex.def)             Requested size: 43.34773pt x 43.3183pt.
+ </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/code-paper.png>]
+File: figures/code-paper.png Graphic file (type png)
+<use figures/code-paper.png>
+Package pdftex.def Info: figures/code-paper.png  used on input line 134.
+(pdftex.def)             Requested size: 43.34773pt x 43.34143pt.
  [4
 
 ]
-<figures/sota-chrono-plot.png, id=101, 1607.00375pt x 563.10374pt>
+<figures/sota-chrono-plot.png, id=102, 1607.00375pt x 563.10374pt>
 File: figures/sota-chrono-plot.png Graphic file (type png)
 <use figures/sota-chrono-plot.png>
-Package pdftex.def Info: figures/sota-chrono-plot.png  used on input line 147.
+Package pdftex.def Info: figures/sota-chrono-plot.png  used on input line 153.
 (pdftex.def)             Requested size: 390.13298pt x 136.70285pt.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 147.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 147.
-
-
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 147.
-
-[5
+ [5
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-plot.png>]
 <figures/sota-chrono-graph.png, id=111, 1275.5655pt x 586.1097pt>
 File: figures/sota-chrono-graph.png Graphic file (type png)
 <use figures/sota-chrono-graph.png>
-Package pdftex.def Info: figures/sota-chrono-graph.png  used on input line 156.
+Package pdftex.def Info: figures/sota-chrono-graph.png  used on input line 162.
 (pdftex.def)             Requested size: 390.13298pt x 179.25954pt.
 
-Overfull \vbox (13.2606pt too high) detected at line 156
+Overfull \vbox (13.2606pt too high) detected at line 162
  []
 
 [6
 
- </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-graph.png>]
-
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <9> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 171.
-
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 171.
-[7
+ </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sota-chrono-graph.png>] [7
 
 ] [8
 
 ]
-<figures/koch1.png, id=135, 3643.6125pt x 2936.9725pt>
+<figures/koch1.png, id=133, 3643.6125pt x 2936.9725pt>
 File: figures/koch1.png Graphic file (type png)
 <use figures/koch1.png>
-Package pdftex.def Info: figures/koch1.png  used on input line 195.
-(pdftex.def)             Requested size: 208.07048pt x 167.69598pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 195.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 195.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 195.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 195.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 195.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 195.
- [9
+Package pdftex.def Info: figures/koch1.png  used on input line 201.
+(pdftex.def)             Requested size: 225.41354pt x 181.67812pt.
+
+Overfull \vbox (3.67918pt too high) detected at line 201
+ []
+
+[9
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/koch1.png>]
-<figures/koch2.png, id=143, 3653.65pt x 2955.04pt>
+<figures/koch2.png, id=141, 3653.65pt x 2955.04pt>
 File: figures/koch2.png Graphic file (type png)
 <use figures/koch2.png>
-Package pdftex.def Info: figures/koch2.png  used on input line 195.
-(pdftex.def)             Requested size: 208.07048pt x 168.2767pt.
- [10
+Package pdftex.def Info: figures/koch2.png  used on input line 201.
+(pdftex.def)             Requested size: 225.41354pt x 182.29976pt.
+
+Overfull \vbox (4.30083pt too high) detected at line 201
+ []
+
+[10
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/koch2.png>]
-<figures/koch3.png, id=151, 3653.65pt x 2955.04pt>
+<figures/koch3.png, id=149, 3653.65pt x 2955.04pt>
 File: figures/koch3.png Graphic file (type png)
 <use figures/koch3.png>
-Package pdftex.def Info: figures/koch3.png  used on input line 195.
-(pdftex.def)             Requested size: 208.07048pt x 168.2767pt.
- [11
+Package pdftex.def Info: figures/koch3.png  used on input line 201.
+(pdftex.def)             Requested size: 225.41354pt x 182.29976pt.
+
+Overfull \vbox (4.30083pt too high) detected at line 201
+ []
+
+[11
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/koch3.png>] [12
 
 ]
-<figures/triplet_loss_no_margin.png, id=168, 1480.0896pt x 813.57953pt>
+<figures/triplet_loss_no_margin.png, id=166, 1480.0896pt x 813.57953pt>
 File: figures/triplet_loss_no_margin.png Graphic file (type png)
 <use figures/triplet_loss_no_margin.png>
-Package pdftex.def Info: figures/triplet_loss_no_margin.png  used on input line 242.
+Package pdftex.def Info: figures/triplet_loss_no_margin.png  used on input line 248.
 (pdftex.def)             Requested size: 225.41043pt x 123.89378pt.
  [13
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/triplet_loss_no_margin.png>]
 File: figures/triplet_loss_no_margin.png Graphic file (type png)
 <use figures/triplet_loss_no_margin.png>
-Package pdftex.def Info: figures/triplet_loss_no_margin.png  used on input line 242.
+Package pdftex.def Info: figures/triplet_loss_no_margin.png  used on input line 248.
 (pdftex.def)             Requested size: 225.41043pt x 123.89378pt.
  [14
 
 ]
-<figures/triplet_loss_margin.png, id=183, 1480.0896pt x 813.57953pt>
+<figures/triplet_loss_margin.png, id=181, 1480.0896pt x 813.57953pt>
 File: figures/triplet_loss_margin.png Graphic file (type png)
 <use figures/triplet_loss_margin.png>
-Package pdftex.def Info: figures/triplet_loss_margin.png  used on input line 242.
+Package pdftex.def Info: figures/triplet_loss_margin.png  used on input line 248.
 (pdftex.def)             Requested size: 225.41043pt x 123.89378pt.
  [15
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/triplet_loss_margin.png>]
-<figures/topic-distib.png, id=192, 1019.81pt x 521.95pt>
+<figures/topic-distib.png, id=190, 1019.81pt x 521.95pt>
 File: figures/topic-distib.png Graphic file (type png)
 <use figures/topic-distib.png>
-Package pdftex.def Info: figures/topic-distib.png  used on input line 273.
+Package pdftex.def Info: figures/topic-distib.png  used on input line 279.
 (pdftex.def)             Requested size: 195.06648pt x 99.83257pt.
-<figures/train-pretty.png, id=193, 1346.02875pt x 638.385pt>
+<figures/train-pretty.png, id=191, 1346.02875pt x 638.385pt>
 File: figures/train-pretty.png Graphic file (type png)
 <use figures/train-pretty.png>
-Package pdftex.def Info: figures/train-pretty.png  used on input line 273.
+Package pdftex.def Info: figures/train-pretty.png  used on input line 279.
 (pdftex.def)             Requested size: 195.06648pt x 92.50987pt.
-
-Overfull \vbox (1.367pt too high) detected at line 273
- []
-
-[16
+ [16
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/topic-distib.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/train-pretty.png>]
 File: figures/topic-distib.png Graphic file (type png)
 <use figures/topic-distib.png>
-Package pdftex.def Info: figures/topic-distib.png  used on input line 273.
+Package pdftex.def Info: figures/topic-distib.png  used on input line 279.
 (pdftex.def)             Requested size: 195.06648pt x 99.83257pt.
 File: figures/train-pretty.png Graphic file (type png)
 <use figures/train-pretty.png>
-Package pdftex.def Info: figures/train-pretty.png  used on input line 273.
+Package pdftex.def Info: figures/train-pretty.png  used on input line 279.
 (pdftex.def)             Requested size: 195.06648pt x 92.50987pt.
-
-Overfull \vbox (1.367pt too high) detected at line 273
- []
-
-[17
+ [17
 
 ]
-<figures/contextual_utterances_training_fr.png, id=213, 5089.0125pt x 1585.925pt>
+<figures/contextual_utterances_training_fr.png, id=212, 5089.0125pt x 1585.925pt>
 File: figures/contextual_utterances_training_fr.png Graphic file (type png)
 <use figures/contextual_utterances_training_fr.png>
-Package pdftex.def Info: figures/contextual_utterances_training_fr.png  used on input line 281.
+Package pdftex.def Info: figures/contextual_utterances_training_fr.png  used on input line 287.
 (pdftex.def)             Requested size: 433.48404pt x 135.08012pt.
  [18
 
@@ -1324,46 +1297,42 @@ Package pdftex.def Info: figures/contextual_utterances_training_fr.png  used on 
 ] [20
 
 ]
-<figures/resultats_sans_llms.png, id=235, 868.24374pt x 778.91pt>
-File: figures/resultats_sans_llms.png Graphic file (type png)
-<use figures/resultats_sans_llms.png>
-Package pdftex.def Info: figures/resultats_sans_llms.png  used on input line 307.
-(pdftex.def)             Requested size: 199.69185pt x 179.14552pt.
+<figures/results-2024.png, id=234, 948.54375pt x 889.3225pt>
+File: figures/results-2024.png Graphic file (type png)
+<use figures/results-2024.png>
+Package pdftex.def Info: figures/results-2024.png  used on input line 316.
+(pdftex.def)             Requested size: 218.16046pt x 204.53987pt.
+ [21
 
-Overfull \vbox (1.14659pt too high) detected at line 307
- []
-
-[21
-
- </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/resultats_sans_llms.png>]
-<figures/hsh.png, id=243, 1331.97626pt x 412.54124pt>
+ </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/results-2024.png>]
+<figures/hsh.png, id=242, 1331.97626pt x 412.54124pt>
 File: figures/hsh.png Graphic file (type png)
 <use figures/hsh.png>
-Package pdftex.def Info: figures/hsh.png  used on input line 319.
+Package pdftex.def Info: figures/hsh.png  used on input line 328.
 (pdftex.def)             Requested size: 433.48404pt x 134.25687pt.
  [22
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/hsh.png>]
-<figures/gp.png, id=251, 1345.025pt x 356.33125pt>
+<figures/gp.png, id=250, 1345.025pt x 356.33125pt>
 File: figures/gp.png Graphic file (type png)
 <use figures/gp.png>
-Package pdftex.def Info: figures/gp.png  used on input line 331.
+Package pdftex.def Info: figures/gp.png  used on input line 340.
 (pdftex.def)             Requested size: 433.48404pt x 114.83846pt.
  [23
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/gp.png>]
-<figures/resultats_llms.png, id=259, 916.42375pt x 327.2225pt>
+<figures/resultats_llms.png, id=258, 916.42375pt x 327.2225pt>
 File: figures/resultats_llms.png Graphic file (type png)
 <use figures/resultats_llms.png>
-Package pdftex.def Info: figures/resultats_llms.png  used on input line 344.
+Package pdftex.def Info: figures/resultats_llms.png  used on input line 353.
 (pdftex.def)             Requested size: 260.09306pt x 92.86992pt.
-<figures/taille_llms.png, id=260, 1326.9575pt x 266.9975pt>
+<figures/taille_llms.png, id=259, 1326.9575pt x 266.9975pt>
 File: figures/taille_llms.png Graphic file (type png)
 <use figures/taille_llms.png>
-Package pdftex.def Info: figures/taille_llms.png  used on input line 344.
+Package pdftex.def Info: figures/taille_llms.png  used on input line 353.
 (pdftex.def)             Requested size: 303.4375pt x 61.05368pt.
 
-Overfull \vbox (10.92467pt too high) detected at line 344
+Overfull \vbox (10.92467pt too high) detected at line 353
  []
 
 [24
@@ -1373,31 +1342,54 @@ Overfull \vbox (10.92467pt too high) detected at line 344
 ] [26
 
 ]
-<figures/emotion_wheel.png, id=282, 1370.11874pt x 1340.00626pt>
+<figures/emotion_wheel.png, id=281, 1370.11874pt x 1340.00626pt>
 File: figures/emotion_wheel.png Graphic file (type png)
 <use figures/emotion_wheel.png>
-Package pdftex.def Info: figures/emotion_wheel.png  used on input line 375.
-(pdftex.def)             Requested size: 99.69946pt x 97.49045pt.
+Package pdftex.def Info: figures/emotion_wheel.png  used on input line 390.
+(pdftex.def)             Requested size: 130.04652pt x 127.17923pt.
  [27
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/emotion_wheel.png>]
-File: figures/qrcode.jpg Graphic file (type jpg)
-<use figures/qrcode.jpg>
-Package pdftex.def Info: figures/qrcode.jpg  used on input line 400.
-(pdftex.def)             Requested size: 156.05377pt x 156.02853pt.
-File: figures/qrcode.jpg Graphic file (type jpg)
-<use figures/qrcode.jpg>
-Package pdftex.def Info: figures/qrcode.jpg  used on input line 400.
-(pdftex.def)             Requested size: 156.05377pt x 156.02853pt.
+<figures/animals.png, id=289, 210.3057pt x 297.0297pt>
+File: figures/animals.png Graphic file (type png)
+<use figures/animals.png>
+Package pdftex.def Info: figures/animals.png  used on input line 415.
+(pdftex.def)             Requested size: 117.04108pt x 165.30212pt.
+<figures/code-gh.png, id=290, 1026.83624pt x 1026.83624pt>
+File: figures/code-gh.png Graphic file (type png)
+<use figures/code-gh.png>
+Package pdftex.def Info: figures/code-gh.png  used on input line 415.
+(pdftex.def)             Requested size: 156.05377pt x 156.04pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 415.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 415.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 415.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 415.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 415.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 415.
  [28
 
-] [29
+ </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/animals.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/code-gh.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 422.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 422.
+
+[29
 
  </usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [30
 
 
 ]
-Overfull \hbox (71.0609pt too wide) in paragraph at lines 422--422
+Overfull \hbox (71.0609pt too wide) in paragraph at lines 437--437
 \T1/lmtt/m/n/10.95 20544-[]canides-[]du-[]monde-[]loups-[]chiens-[]sauvages-[]renards-[]chacals-[]coyotes-[]et-[]apparentes . 
  []
 
@@ -1408,133 +1400,141 @@ Overfull \hbox (71.0609pt too wide) in paragraph at lines 422--422
 ] [33
 
 ]
-<figures/emo_dist_sp_6_labelled.pdf, id=353, 462.52798pt x 346.89601pt>
+<figures/emo_dist_sp_6_labelled.pdf, id=361, 462.52798pt x 346.89601pt>
 File: figures/emo_dist_sp_6_labelled.pdf Graphic file (type pdf)
 <use figures/emo_dist_sp_6_labelled.pdf>
-Package pdftex.def Info: figures/emo_dist_sp_6_labelled.pdf  used on input line 466.
+Package pdftex.def Info: figures/emo_dist_sp_6_labelled.pdf  used on input line 481.
 (pdftex.def)             Requested size: 254.39116pt x 190.79338pt.
  [34
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/emo_dist_sp_6_labelled.pdf>]
-<figures/wtf.png, id=388, 1308.89pt x 639.38875pt>
+<figures/prompts.png, id=396, 1323.94624pt x 543.02875pt>
+File: figures/prompts.png Graphic file (type png)
+<use figures/prompts.png>
+Package pdftex.def Info: figures/prompts.png  used on input line 488.
+(pdftex.def)             Requested size: 433.48404pt x 177.79143pt.
+ [35
+
+ </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/prompts.png>]
+<figures/wtf.png, id=403, 1308.89pt x 639.38875pt>
 File: figures/wtf.png Graphic file (type png)
 <use figures/wtf.png>
-Package pdftex.def Info: figures/wtf.png  used on input line 474.
+Package pdftex.def Info: figures/wtf.png  used on input line 496.
 (pdftex.def)             Requested size: 433.48404pt x 211.75017pt.
 
-Overfull \vbox (7.68477pt too high) detected at line 474
+Overfull \vbox (7.68477pt too high) detected at line 496
  []
 
-[35
+[36
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/wtf.png>]
-<figures/preproc_static2.png, id=396, 1445.4pt x 482.80376pt>
+<figures/preproc_static2.png, id=411, 1445.4pt x 482.80376pt>
 File: figures/preproc_static2.png Graphic file (type png)
 <use figures/preproc_static2.png>
-Package pdftex.def Info: figures/preproc_static2.png  used on input line 483.
+Package pdftex.def Info: figures/preproc_static2.png  used on input line 505.
 (pdftex.def)             Requested size: 433.48404pt x 144.79066pt.
- [36
-
- </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/preproc_static2.png>]
-<figures/bert-output-simple.pdf, id=404, 478.59697pt x 334.29301pt>
-File: figures/bert-output-simple.pdf Graphic file (type pdf)
-<use figures/bert-output-simple.pdf>
-Package pdftex.def Info: figures/bert-output-simple.pdf  used on input line 491.
-(pdftex.def)             Requested size: 268.01247pt x 187.2028pt.
  [37
 
- </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/bert-output-simple.pdf>]
-<figures/no-emotion.png, id=434, 560.59438pt x 546.54187pt>
-File: figures/no-emotion.png Graphic file (type png)
-<use figures/no-emotion.png>
-Package pdftex.def Info: figures/no-emotion.png  used on input line 533.
-(pdftex.def)             Requested size: 78.02394pt x 76.065pt.
-<figures/anger.png, id=435, 559.08875pt x 559.59062pt>
-File: figures/anger.png Graphic file (type png)
-<use figures/anger.png>
-Package pdftex.def Info: figures/anger.png  used on input line 533.
-(pdftex.def)             Requested size: 78.02394pt x 78.08598pt.
-<figures/disgust.png, id=436, 553.06625pt x 567.62062pt>
-File: figures/disgust.png Graphic file (type png)
-<use figures/disgust.png>
-Package pdftex.def Info: figures/disgust.png  used on input line 533.
-(pdftex.def)             Requested size: 78.02394pt x 80.07262pt.
-<figures/fear.png, id=437, 559.59062pt x 562.60187pt>
-File: figures/fear.png Graphic file (type png)
-<use figures/fear.png>
-Package pdftex.def Info: figures/fear.png  used on input line 533.
-(pdftex.def)             Requested size: 78.02394pt x 78.4375pt.
-<figures/happiness.png, id=438, 554.57187pt x 546.54187pt>
-File: figures/happiness.png Graphic file (type png)
-<use figures/happiness.png>
-Package pdftex.def Info: figures/happiness.png  used on input line 533.
-(pdftex.def)             Requested size: 78.02394pt x 76.89061pt.
-<figures/sadness.png, id=439, 552.56438pt x 555.07375pt>
-File: figures/sadness.png Graphic file (type png)
-<use figures/sadness.png>
-Package pdftex.def Info: figures/sadness.png  used on input line 533.
-(pdftex.def)             Requested size: 78.02394pt x 78.37042pt.
-<figures/surprise.png, id=440, 551.05875pt x 551.05875pt>
-File: figures/surprise.png Graphic file (type png)
-<use figures/surprise.png>
-Package pdftex.def Info: figures/surprise.png  used on input line 533.
-(pdftex.def)             Requested size: 78.02394pt x 78.02217pt.
-<figures/legend.png, id=441, 503.8825pt x 494.84875pt>
-File: figures/legend.png Graphic file (type png)
-<use figures/legend.png>
-Package pdftex.def Info: figures/legend.png  used on input line 533.
-(pdftex.def)             Requested size: 78.02394pt x 76.62524pt.
+ </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/preproc_static2.png>]
+<figures/bert-output-simple.pdf, id=420, 478.59697pt x 334.29301pt>
+File: figures/bert-output-simple.pdf Graphic file (type pdf)
+<use figures/bert-output-simple.pdf>
+Package pdftex.def Info: figures/bert-output-simple.pdf  used on input line 513.
+(pdftex.def)             Requested size: 268.01247pt x 187.2028pt.
  [38
 
+ </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/bert-output-simple.pdf>]
+<figures/no-emotion.png, id=449, 560.59438pt x 546.54187pt>
+File: figures/no-emotion.png Graphic file (type png)
+<use figures/no-emotion.png>
+Package pdftex.def Info: figures/no-emotion.png  used on input line 555.
+(pdftex.def)             Requested size: 78.02394pt x 76.065pt.
+<figures/anger.png, id=450, 559.08875pt x 559.59062pt>
+File: figures/anger.png Graphic file (type png)
+<use figures/anger.png>
+Package pdftex.def Info: figures/anger.png  used on input line 555.
+(pdftex.def)             Requested size: 78.02394pt x 78.08598pt.
+<figures/disgust.png, id=451, 553.06625pt x 567.62062pt>
+File: figures/disgust.png Graphic file (type png)
+<use figures/disgust.png>
+Package pdftex.def Info: figures/disgust.png  used on input line 555.
+(pdftex.def)             Requested size: 78.02394pt x 80.07262pt.
+<figures/fear.png, id=452, 559.59062pt x 562.60187pt>
+File: figures/fear.png Graphic file (type png)
+<use figures/fear.png>
+Package pdftex.def Info: figures/fear.png  used on input line 555.
+(pdftex.def)             Requested size: 78.02394pt x 78.4375pt.
+<figures/happiness.png, id=453, 554.57187pt x 546.54187pt>
+File: figures/happiness.png Graphic file (type png)
+<use figures/happiness.png>
+Package pdftex.def Info: figures/happiness.png  used on input line 555.
+(pdftex.def)             Requested size: 78.02394pt x 76.89061pt.
+<figures/sadness.png, id=454, 552.56438pt x 555.07375pt>
+File: figures/sadness.png Graphic file (type png)
+<use figures/sadness.png>
+Package pdftex.def Info: figures/sadness.png  used on input line 555.
+(pdftex.def)             Requested size: 78.02394pt x 78.37042pt.
+<figures/surprise.png, id=455, 551.05875pt x 551.05875pt>
+File: figures/surprise.png Graphic file (type png)
+<use figures/surprise.png>
+Package pdftex.def Info: figures/surprise.png  used on input line 555.
+(pdftex.def)             Requested size: 78.02394pt x 78.02217pt.
+<figures/legend.png, id=456, 503.8825pt x 494.84875pt>
+File: figures/legend.png Graphic file (type png)
+<use figures/legend.png>
+Package pdftex.def Info: figures/legend.png  used on input line 555.
+(pdftex.def)             Requested size: 78.02394pt x 76.62524pt.
+ [39
+
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/no-emotion.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/anger.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/disgust.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/fear.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/happiness.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sadness.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/surprise.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/legend.png>]
-<figures/no-emotion_context.png, id=456, 621.32124pt x 607.26875pt>
+<figures/no-emotion_context.png, id=471, 621.32124pt x 607.26875pt>
 File: figures/no-emotion_context.png Graphic file (type png)
 <use figures/no-emotion_context.png>
-Package pdftex.def Info: figures/no-emotion_context.png  used on input line 575.
+Package pdftex.def Info: figures/no-emotion_context.png  used on input line 597.
 (pdftex.def)             Requested size: 82.36302pt x 80.49515pt.
-<figures/anger_context.png, id=457, 635.37375pt x 604.2575pt>
+<figures/anger_context.png, id=472, 635.37375pt x 604.2575pt>
 File: figures/anger_context.png Graphic file (type png)
 <use figures/anger_context.png>
-Package pdftex.def Info: figures/anger_context.png  used on input line 575.
+Package pdftex.def Info: figures/anger_context.png  used on input line 597.
 (pdftex.def)             Requested size: 82.36302pt x 78.32571pt.
-<figures/disgust_context.png, id=458, 615.29875pt x 599.23875pt>
+<figures/disgust_context.png, id=473, 615.29875pt x 599.23875pt>
 File: figures/disgust_context.png Graphic file (type png)
 <use figures/disgust_context.png>
-Package pdftex.def Info: figures/disgust_context.png  used on input line 575.
+Package pdftex.def Info: figures/disgust_context.png  used on input line 597.
 (pdftex.def)             Requested size: 82.36302pt x 80.20796pt.
-<figures/fear_context.png, id=459, 610.28pt x 603.25375pt>
+<figures/fear_context.png, id=474, 610.28pt x 603.25375pt>
 File: figures/fear_context.png Graphic file (type png)
 <use figures/fear_context.png>
-Package pdftex.def Info: figures/fear_context.png  used on input line 575.
+Package pdftex.def Info: figures/fear_context.png  used on input line 597.
 (pdftex.def)             Requested size: 82.36302pt x 81.40813pt.
-<figures/happiness_context.png, id=460, 611.28375pt x 601.24625pt>
+<figures/happiness_context.png, id=475, 611.28375pt x 601.24625pt>
 File: figures/happiness_context.png Graphic file (type png)
 <use figures/happiness_context.png>
-Package pdftex.def Info: figures/happiness_context.png  used on input line 575.
+Package pdftex.def Info: figures/happiness_context.png  used on input line 597.
 (pdftex.def)             Requested size: 82.36302pt x 81.00877pt.
-<figures/sadness_context.png, id=461, 591.20876pt x 583.17876pt>
+<figures/sadness_context.png, id=476, 591.20876pt x 583.17876pt>
 File: figures/sadness_context.png Graphic file (type png)
 <use figures/sadness_context.png>
-Package pdftex.def Info: figures/sadness_context.png  used on input line 575.
+Package pdftex.def Info: figures/sadness_context.png  used on input line 597.
 (pdftex.def)             Requested size: 82.36302pt x 81.24403pt.
-<figures/surprise_context.png, id=462, 626.34pt x 589.20125pt>
+<figures/surprise_context.png, id=477, 626.34pt x 589.20125pt>
 File: figures/surprise_context.png Graphic file (type png)
 <use figures/surprise_context.png>
-Package pdftex.def Info: figures/surprise_context.png  used on input line 575.
+Package pdftex.def Info: figures/surprise_context.png  used on input line 597.
 (pdftex.def)             Requested size: 82.36302pt x 77.47092pt.
 File: figures/legend.png Graphic file (type png)
 <use figures/legend.png>
-Package pdftex.def Info: figures/legend.png  used on input line 575.
+Package pdftex.def Info: figures/legend.png  used on input line 597.
 (pdftex.def)             Requested size: 82.36302pt x 80.88388pt.
- [39
+ [40
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/no-emotion_context.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/anger_context.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/disgust_context.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/fear_context.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/happiness_context.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/sadness_context.png> </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/surprise_context.png>]
-<figures/results_static_only.png, id=476, 1388.18625pt x 740.7675pt>
+<figures/results_static_only.png, id=491, 1388.18625pt x 740.7675pt>
 File: figures/results_static_only.png Graphic file (type png)
 <use figures/results_static_only.png>
-Package pdftex.def Info: figures/results_static_only.png  used on input line 583.
+Package pdftex.def Info: figures/results_static_only.png  used on input line 605.
 (pdftex.def)             Requested size: 390.13298pt x 208.1821pt.
- [40
+ [41
 
  </Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/figures/results_static_only.png>]
 \tf@nav=\write7
@@ -1546,11 +1546,11 @@ Package pdftex.def Info: figures/results_static_only.png  used on input line 583
 \tf@snm=\write9
 \openout9 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 585.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 585.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 607.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 607.
  (/Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 585.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 585.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 607.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 607.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 8BA65C6F332BED2AEFD134C5D3221D0F;381.
 Package logreq Info: Writing requests to 'presentation.run.xml'.
@@ -1558,18 +1558,18 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29992 strings out of 480608
- 566330 string characters out of 5903630
- 1017351 words of memory out of 5000000
- 45133 multiletter control sequences out of 15000+600000
- 631808 words of font info for 93 fonts, out of 8000000 for 9000
+ 29972 strings out of 480608
+ 565979 string characters out of 5903630
+ 1017112 words of memory out of 5000000
+ 45109 multiletter control sequences out of 15000+600000
+ 623407 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,85p,877b,2075s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.pdf (40 pages, 22833223 bytes).
+ 58i,15n,67p,877b,1723s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on /Users/barbaragendron/Desktop/Thèse/Presentations/taln-sec/presentation.pdf (41 pages, 24382422 bytes).
 PDF statistics:
- 573 PDF objects out of 1000 (max. 8388607)
- 382 compressed objects within 4 object streams
- 111 named destinations out of 1000 (max. 500000)
- 336 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 585 PDF objects out of 1000 (max. 8388607)
+ 386 compressed objects within 4 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -171,8 +171,12 @@
 \headcommand {\slideentry {7}{0}{10}{40/40}{}{1}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\beamer@partpages {32}{40}}
-\headcommand {\beamer@subsectionpages {32}{40}}
-\headcommand {\beamer@sectionpages {32}{40}}
-\headcommand {\beamer@documentpages {40}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {7}{0}{11}{41/41}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\beamer@partpages {32}{41}}
+\headcommand {\beamer@subsectionpages {32}{41}}
+\headcommand {\beamer@sectionpages {32}{41}}
+\headcommand {\beamer@documentpages {41}}
 \headcommand {\gdef \inserttotalframenumber {18}}

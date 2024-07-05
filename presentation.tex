@@ -11,7 +11,8 @@
 \usepackage{csquotes}
 \usepackage{caption} 
 \usepackage{subcaption} % for subfigures
-% \captionsetup[figure]{font={small, sf},labelformat=empty}
+\DeclareCaptionLabelSeparator{custom}{ -- }
+\captionsetup[figure]{labelformat=simple, labelsep=custom, name=Figure}
 \usepackage{amsfonts}
 \usepackage{listings}
 \usepackage[natbib=true,style=authortitle,backend=bibtex,useprefix=true]{biblatex}
@@ -45,6 +46,9 @@
 \setbeamerfont{date in head/foot}{series=\normalfont} 
 \setbeamerfont{footline}{series=\normalfont} 
 
+% To cite papers manually
+\newcommand{\manualcite}[1]{\textcolor{gray}{\small[#1]}}
+
 % TITLEPAGE
 \author[Gendron \& Guibon]{\large Barbara Gendron-Audebert$^{1,2}$ et Gaël Guibon$^1$ \\ \texttt{\{prénom.nom\}@loria.fr}}
 \title[\textsl{Metric learning} pour l'ERC en contexte]{SEC : contexte émotionnel phrastique intégré pour la reconnaissance émotionnelle efficiente dans la conversation \vspace{5pt}}
@@ -54,6 +58,8 @@
 \institute[LORIA, UL, CNRS]{\small(1) LORIA, Université de Lorraine, CNRS \qquad (2) Université du Luxembourg}
 
 \begin{document}
+
+\nocite{*}
 
 \begin{frame}[plain]
     \vspace*{5pt}
@@ -106,7 +112,7 @@
             \begin{figure}
                 \centering
                 \captionsetup{labelformat=empty}
-                \includegraphics[width=0.5\textwidth]{qrcode.jpg}
+                \includegraphics[width=0.5\textwidth]{code-paper.png}
                 \caption{\centering Lien vers l'article}
             \end{figure}
         \end{column}
@@ -156,7 +162,7 @@
 \end{frame}
 
 \begin{frame}{Apports du \textsl{deep learning} et du \textsl{metric learning}}
-    Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC.~\footfullcite{Poria:2019,Pereira:2022}\\
+    Les modèles neuronaux obtiennent des résultats état-de-l'art en ERC.~\manualcite{Poria et al., 2019, Pereira et al., 2022}\\
     %     \item Apprentissage sur le contexte grâce à l'\textcolor{roose}{\bf attention}~\footfullcite{Bahdanau:2014} et aux architectures associées~\footfullcite{Vaswani:2017}
     \vspace*{8pt}
     \visible<2->{
@@ -165,7 +171,7 @@
         \item Un cadre de classification souple permettant l'extraction de relations entre les labels et la prédiction sur des labels inconnus%sans avoir besoin de changer le modèle ni l'entraînement
 % L'extraction de relations entre les labels de manière assez naturelle puisque c'est comme ça que le modèle a été entraîné
         \item Une adaptation intrinsèque à l'apprentissage \textsl{few-shot} pour apprendre des émotions peu représentées
-        \item Un variété d'architectures : réseaux de correspondances~\footfullcite{Vinyals:2017}, siamois\footfullcite{Koch:2015}, prototypiques~\footfullcite{Snell:2017,guibon:2021:protoseq} % donner l'exemple de protoseq
+        \item Un variété d'architectures : réseaux de correspondances~\manualcite{Vinyals et al., 2016}, siamois~\manualcite{Koch et al., 2015}, prototypiques~\manualcite{Snell et al., 2017, Guibon et al., 2021}
     \end{itemize}
     }
 \end{frame}
@@ -174,22 +180,22 @@
     \only<1>{
         \begin{figure}
             \centering
-            \includegraphics[width=0.48\textwidth]{koch1.png}
-            \caption{\centering Architecture des réseaux siamois~\footfullcite{Koch:2015}}
+            \includegraphics[width=0.52\textwidth]{koch1.png}
+            \caption{\centering Architecture des réseaux siamois~\manualcite{Koch et al., 2015}}
         \end{figure}
     }
     \only<2>{
         \begin{figure}
             \centering
-            \includegraphics[width=0.48\textwidth]{koch2.png}
-            \caption{\centering Architecture des réseaux siamois~\footfullcite{Koch:2015}}
+            \includegraphics[width=0.52\textwidth]{koch2.png}
+            \caption{\centering Architecture des réseaux siamois~\manualcite{Koch et al., 2015}}
         \end{figure}
     }
     \only<3>{
         \begin{figure}
             \centering
-            \includegraphics[width=0.48\textwidth]{koch3.png}
-            \caption{\centering Architecture des réseaux siamois~\footfullcite{Koch:2015}}
+            \includegraphics[width=0.52\textwidth]{koch3.png}
+            \caption{\centering Architecture des réseaux siamois~\manualcite{Koch et al., 2015}}
         \end{figure}
     }
 \end{frame}
@@ -244,7 +250,7 @@
 \section{Méthodologie}
 
 \begin{frame}{Données}
-    Jeu de données \texttt{DailyDialog}~\footfullcite{Li:2017}
+    Jeu de données \texttt{DailyDialog}~\manualcite{Li et al., 2017}
     \begin{itemize}
         \item 13 118 dialogues dyadiques en anglais sur des sujets de la vie quotidienne
         \item Annotation \textcolor{roose}{\bf au niveau du tour de parole} : \texttt{happiness}, \texttt{anger}, \texttt{disgust}, \texttt{fear}, \texttt{surprise}, \texttt{sadness} et \texttt{no emotion}
@@ -287,7 +293,7 @@
     \item MCC (\textsl{Matthews Correlation Coefficient}) : métrique plus contraignante utilisée pour des classes fortement déséquilibrées
 \end{itemize}
 \visible<2->{
-Le MCC est défini comme suit~\footfullcite{Matthews:1975} :
+Le MCC est défini comme suit~\manualcite{Matthews, 1975} :
 \begin{equation}
     \text{MCC} = \frac{\mathit{TP}/ N-S \times P}{\sqrt{P S(1-S)(1-P)}}
 \end{equation}
@@ -299,11 +305,14 @@ Où $TP$ est le nombre de vrais positifs, $N$ la taille des données, $P$ la pr�
 
 \begin{frame}{Résultats quantitatifs}
     % Préciser que c'est sur le jeu de test d'origine, et que l'astérisque signifie qu'on exclut l'étiquette neutre
-    \begin{figure}
+    \begin{minipage}{0.6\textwidth}
         \centering
-        \includegraphics[scale=0.23]{resultats_sans_llms.png}
-        \caption{\centering Résultats en ERC sur \texttt{DailyDialog}}
-    \end{figure}
+        \includegraphics[scale=0.23]{results-2024.png}
+    \end{minipage}%
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \captionof{figure}{Résultats en ERC sur \texttt{DailyDialog}}
+    \end{minipage}
 \end{frame}
 
 \begin{frame}{Évaluation qualitative}
@@ -363,15 +372,21 @@ Où $TP$ est le nombre de vrais positifs, $N$ la taille des données, $P$ la pr�
 \end{frame}
 
 \begin{frame}{Perspectives}
-    \begin{itemize}
-        \item Prédictions sur des étiquettes émotionnelles inconnues du modèle
-        \item Enrichissement des données d'entraînement pour améliorer la stabilité du modèle (exemple: \texttt{EmpatheticDialogues}~\footfullcite{Rashkin:2019}) 
-    \end{itemize}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.23\textwidth]{emotion_wheel.png}
-        \caption{\centering Roue des émotions de Plutchik~\footfullcite{Plutchik2001TheNO}}
-    \end{figure}
+    \begin{columns}
+        \begin{column}[c]{0.4\linewidth}
+            \begin{itemize}
+                \item Prédictions sur des étiquettes émotionnelles inconnues du modèle
+                \item Enrichissement des données d'entraînement pour améliorer la stabilité du modèle (exemple: \texttt{EmpatheticDialogues}~\manualcite{Rashkin et al., 2019}) 
+            \end{itemize}
+        \end{column}
+        \begin{column}[c]{0.5\linewidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.6\textwidth]{emotion_wheel.png}
+                \caption{\centering Roue des émotions de Plutchik~\manualcite{Plutchik, 2001}}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
@@ -386,14 +401,14 @@ Où $TP$ est le nombre de vrais positifs, $N$ la taille des données, $P$ la pr�
             \centering
             \begin{minipage}{0.45\textwidth}
                 \centering
-                \includegraphics[width=0.8\textwidth]{qrcode.jpg}
-                \caption{Lien vers l'article}
+                \includegraphics[width=0.6\textwidth]{animals.png}
+                \caption{Les animaux (page 2)}
             \end{minipage}
             \hspace{0.05\textwidth}
             \begin{minipage}{0.45\textwidth}
                 \centering
-                \includegraphics[width=0.8\textwidth]{qrcode.jpg}
-                \caption{Code (dépôt GitHub)}
+                \includegraphics[width=0.8\textwidth]{code-gh.png}
+                \caption{\centering Code : \url{https://github.com/B-Gendron/sentEmoContext}}
             \end{minipage}
         \end{figure}
     \end{center}
@@ -463,6 +478,13 @@ Où $TP$ est le nombre de vrais positifs, $N$ la taille des données, $P$ la pr�
         \caption{\centering Cumulative number of expressed emotions \textit{w.r.t.} the utterance index}
         \label{fig:emo_dist_6}
     \end{figure}
+    \end{frame}
+
+    \begin{frame}[plain, noframenumbering]{Prompt examples}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{prompts.png}
+        \end{figure}
     \end{frame}
     
     \begin{frame}[plain, noframenumbering]{Some unexplainable predictions}

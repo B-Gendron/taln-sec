@@ -354,6 +354,56 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Sung:2018}{misc}{}
+    \name{author}{6}{}{%
+      {{hash=SF}{%
+         family={Sung},
+         familyi={S\bibinitperiod},
+         given={Flood},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Yongxin},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZL}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=XT}{%
+         family={Xiang},
+         familyi={X\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TPH}{%
+         family={Torr},
+         familyi={T\bibinitperiod},
+         given={Philip\bibnamedelima H.S.},
+         giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=HTM}{%
+         family={Hospedales},
+         familyi={H\bibinitperiod},
+         given={Timothy\bibnamedelima M.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SF+1}
+    \strng{fullhash}{SFYYZLXTTPHHTM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{howpublished}{IEEE/CVF}
+    \field{title}{Learning to Compare: Relation Network for Few-Shot Learning}
+    \field{year}{2018}
+  \endentry
+
   \entry{Vinyals:2017}{misc}{}
     \name{author}{5}{}{%
       {{hash=VO}{%
